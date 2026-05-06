@@ -1,0 +1,68 @@
+{
+  "model": "anthropic/claude-opus-4.6",
+  "timestamp": "20260506_161342",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_h7P8pfSBF4jrs2yg6VC2jmZ4W301eaTlmy5aCpWX8oFXkOeT6XwALJh87j2deggmuxScSctgkvALj25U-Ty63lQ2vUz-wlI4vzHDY_DgxLWX2nLs3hhgw_nih35nAA8MGoKa2zKNLVhX5GxfG35u1b8iBEpk_PAvO60Fz7Qq1TWEKn9WjS6Gx-tRZRBu1_jqS1iKobZ1CzeWbVc6yrZCh_aO3u7ukKnwc7PlB6ZMBIRiEwl_4xjR3JWRMkQkbzaA_ew6OPLR8bbPYkLyfsqm3oPFCU86wdzpOCuwxJjgUqTmT2VP5a6m1Av0qMD6HblFWKmBw60ytIqAKtVgovH6rbChvpR_EDSftGN7VskVjXZqzrlTAu89ZTjEFch0Q9iLqLR7Opm0YutcNdAzv6BPUBpau7flHBWORj_1",
+    "model": "anthropic/claude-opus-4.6",
+    "object": "response",
+    "created_at": 1778073218.0,
+    "output_text": "Here's one:\n\nWhy don't scientists trust atoms?\n\nBecause they make up everything.",
+    "usage": {
+      "input_tokens": 15,
+      "output_tokens": 22,
+      "total_tokens": 37,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Here's one:\n\nWhy don't scientists trust atoms?\n\nBecause they make up everything."
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_C18yZDfZrPJjhAjt6VVt2Ai6XTzW6e_em1ZlLmyBTv8XhNuJMKo-R_-B1jOx9VYAPUXmTtKdsBBrRHYIT-yG9gnNvvc6q2z4i_gG0kFzQNGOlzC7PpVW3JMXFpHDS9pf-36C9pHeuL3JTfBVITJf5agSylzGI8loGRi7DucFBejYisvMhLy-v-Rkmnsjk8LX5YjvkPfQBpN-KwOQW_JlH_7xf2UpGYNdNYt97M9PuOxWiOgOXbn5J7mAWsih8_Bpt02xEpJ1xSx60HhTb11iG4sIR3L1IzaR2t7dkhrsL2f1K9ZSeXlifafw_k-RmV7mbi7g2iPxEJfQMfG8rrRZExYo2M9B8xiDMwhgy6fEVlcIa4t1Uf_uyk-wC_b1kGRlI-eKQFQtJWIJL4mjgd8mWq-fYDqNSgWn13U9",
+    "model": "anthropic/claude-opus-4.6",
+    "object": "response",
+    "created_at": 1778073222.0,
+    "output_text": "The joke was about atoms — the tiny particles that make up all matter. It's a play on words:\n\n- \"Make up\" as in they **compose** everything (since all matter is made of atoms)\n- \"Make up\" as in they **lie** or fabricate things\n\nSo the punchline works on both meanings, which is why scientists supposedly can't \"trust\" them!",
+    "usage": {
+      "input_tokens": 50,
+      "output_tokens": 86,
+      "total_tokens": 136,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about atoms — the tiny particles that make up all matter. It's a play on words:\n\n- \"Make up\" as in they **compose** everything (since all matter is made of atoms)\n- \"Make up\" as in they **lie** or fabricate things\n\nSo the punchline works on both meanings, which is why scientists supposedly can't \"trust\" them!"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

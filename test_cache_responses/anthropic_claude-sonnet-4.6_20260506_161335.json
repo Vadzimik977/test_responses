@@ -1,0 +1,68 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "timestamp": "20260506_161335",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_ExAjuET-PY6vwBohqSQ9ge0F-MSYzq_MEuZbnaJfdu0CNUU0C3QikQcwgK_de_D07IcLi1Bf0FBooCHZMTDv2etSFM0hjzFEtkUkHltVIUzQ9PkBR_0bxNEjVcZCQZaVJyrpTxIgj0ijVL0Uaet7N8LA6ZHYmTrQxCKyfah5Tq360TgqfCQPKK-N1LNb0t3MJDWX2xtAE66ltT_O5Il0UJ7dxnB3kQ0Q_hj2DPIuUVxJH6J312DEgyhhorYsfezMLcugopWQIFFlxya7g-9L5ixxFUb2k8iKzo1WQaAHXCqFKR0A1AH_Yc3XNPQUxeR4vYBNU-AJVKIZ7MymCPOUh3cidsPTF1qusWPjuWc_xjhGJ7FJppvjNAbLU0RtRWi5zop8ZLDdfiA1TLxfFj8G_baIA01OZs9x3uRd",
+    "model": "anthropic/claude-sonnet-4.6",
+    "object": "response",
+    "created_at": 1778073211.0,
+    "output_text": "Here's one:\n\nWhy don't scientists trust atoms?\n\n**Because they make up everything!** 😄",
+    "usage": {
+      "input_tokens": 15,
+      "output_tokens": 27,
+      "total_tokens": 42,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Here's one:\n\nWhy don't scientists trust atoms?\n\n**Because they make up everything!** 😄"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_kNjJeV40LlV4jVvAncpaAQikJbeY9knOXM0wOlCd3UfnPAt-yXPMWFEiSOdYq01TqoGOm5ptoDkxR6sqy7fASW_urclGRt19rFZzOjN3MCNAU-QiLIVyQpJq3u4kVKd4WYbjbtnqSOHGig361y_UvO954aRjDLeNJBQO_7H-p5Cw_w0vSnUp1QUSyYqVNpFIRoj4hfcN7zPB7sOMpmoh3L5CFbu45JA4THteXVYHr5TYNEhoJ5dMeNR2820Zwsj74-DD2af7_8Sy2t6X1-6Q-7WN9lN97kQi_Gicz_v04lSPR1PzcXdqRy3s4HN0y6DOOvKuRp70h5MljFA6A31a3vRuvg6Y2c9XzWzV6altIWRZIRLH6x0YjYBlug0CjbQmGYgiHVMXEIwQfUknPhLSsrvYB67StzdpSvU2",
+    "model": "anthropic/claude-sonnet-4.6",
+    "object": "response",
+    "created_at": 1778073215.0,
+    "output_text": "The joke was about **atoms** — the tiny particles that make up all matter. \n\nIt's a science pun! The humor comes from the double meaning of \"make up\":\n- Atoms literally **make up** (compose) everything in the universe\n- But \"make up\" also means to **lie or fabricate** something\n\nSo it plays on the idea that atoms are untrustworthy because they \"make up\" everything! 😄",
+    "usage": {
+      "input_tokens": 55,
+      "output_tokens": 100,
+      "total_tokens": 155,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about **atoms** — the tiny particles that make up all matter. \n\nIt's a science pun! The humor comes from the double meaning of \"make up\":\n- Atoms literally **make up** (compose) everything in the universe\n- But \"make up\" also means to **lie or fabricate** something\n\nSo it plays on the idea that atoms are untrustworthy because they \"make up\" everything! 😄"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "model": "xiaomi/mimo-v2-omni",
+  "timestamp": "20260506_161325",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_9kZO5adS_4beJOq1C5zhv4w57mvW0A16J-NZEdOdOxha2vpC7ABrA2L7HwZhhRSDbfyCGdTQH978INJKrzPVqcjDlqw_ahupPcXBOBsOFLmupbklefwKqMXPq8ww7y0eC4wwNPx5klOcMzqkVUTfQbKFwERSrlW9IYmis3nvelzSIs9aSAajV2OyBaIxdTUqnebtH6Ktdvn3lbPZ4lR30jnwaV0mSe5_V5wbS9Vgd9OmvAYsY3Ir8qEUrpgp8JSgtK0xFYQNoLv9QJlESaD5kjwUhKgM3OWKg3VtLdXdfjBP00NoSKiYhmvEOpg7DZ06VLBHIva6rdY7GqqLcgLPfDG1ixDau58t1BXybFbWCJdC66Sa5tO2wSGaPaKvmn4UbUifz2KFLvzAIOz-lJJtZr4HzaTkf737vtpo",
+    "model": "xiaomi/mimo-v2-omni-20260318",
+    "object": "response",
+    "created_at": 1778073197.0,
+    "output_text": "Why don’t scientists trust atoms?  \n…Because they make up everything!  \n\nWant to hear another one? 😄",
+    "usage": {
+      "input_tokens": 258,
+      "output_tokens": 151,
+      "total_tokens": 409,
+      "input_tokens_details": {
+        "cached_tokens": 192
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don’t scientists trust atoms?  \n…Because they make up everything!  \n\nWant to hear another one? 😄"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_yha2B0WSrJ3qifDCTZmCeHAIErD5LJMUP2Q2gsGORiq7kJPJERgeA_ZOiX0mpDb8NJjBwlVdAGkFP7m_hu_Vge3O5YQC4PDgIMozruYo99MoDh6v_zRwnSIiWhjpXVd-YSzsZQNaKK-iDOwXgQn0KRdTKDBzfZvSYh35mnelpAskTxGagzIHgBMixp6ylzMqmlxBprU8Jrp8n9OO0uTl0tSDnZUqCzivJddfpBRQ4MUggMyAyYFnuKJ13_c7NkMmSAJd0DfK16gktIc9yCK5YORr1PZgtr46gNQFfcWnVFJuHI-OQh-PbNFdlnWTvAxd-XAh2pTWDQjq54iInZtHctxo2iJXk5GShyRQwh2Jnw72BVTpZVF-DEnL-lXZjJZVMMQ19GSivM31rR-7-zdBGS2w3Uenz-LIpYgf",
+    "model": "xiaomi/mimo-v2-omni-20260318",
+    "object": "response",
+    "created_at": 1778073201.0,
+    "output_text": "The joke was about scientists and atoms! It went:  \n*Why don’t scientists trust atoms?  \n…Because they make up everything!*  \n\nWant another one, or shall we talk about something else? 😊",
+    "usage": {
+      "input_tokens": 302,
+      "output_tokens": 179,
+      "total_tokens": 481,
+      "input_tokens_details": {
+        "cached_tokens": 192
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 133
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about scientists and atoms! It went:  \n*Why don’t scientists trust atoms?  \n…Because they make up everything!*  \n\nWant another one, or shall we talk about something else? 😊"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

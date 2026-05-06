@@ -1,0 +1,68 @@
+{
+  "model": "z-ai/glm-4.5-air",
+  "timestamp": "20260506_160625",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_xui97NVXV8dMUPzoG2F2qltQFNgeHE9kug3DfJnajiB3_me-9HjKcap0-8XNsDR03MDH15PgcyemXsoEOMohRCSlOgJzb2GrnvPmuFYqaXTp5wkekn0lAuixniSKssyqwwBGXZPwA-Kyiq3qeFblqk3_PHqQXIhoHNNIwOBtR5uL_w8CU3zya_M38aPkgQMKakcbfvBI3DimqKCXNloqKNnMrr73pKEWW19Ixb0e0ToUNkh1Vgz0IFeVwTgsdBAE9rbqSh3fCUHwvLzHRhSvl7FRTEAstLtQKKYBJBz_AacECd8Hz0WtECHam8-uIQmf9y8LtJWDXBVE46aWex1vJdgd_nUKJ9Uy08ahPAB9oZQ-bJvJonrT-K40qKxiI0NsjRrPZ9pHsO3Y4GR2k4LUM6xSatnfZviwa2lX",
+    "model": "z-ai/glm-4.5-air",
+    "object": "response",
+    "created_at": 1778072775.0,
+    "output_text": "Sure! Here's a quick one for you:  \n\n**Why didn't the skeleton fight?**  \n*Because he didn't have the guts!* 😄",
+    "usage": {
+      "input_tokens": 13,
+      "output_tokens": 253,
+      "total_tokens": 266,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 221
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Sure! Here's a quick one for you:  \n\n**Why didn't the skeleton fight?**  \n*Because he didn't have the guts!* 😄"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_oVPFOmBAa_hYgetMOc53h9JWLbvGRRO3Ea4763H7S-2sJDsqzqBYLEplZF5gH94I7D7SoBZjfPmChylMM2w7KCK07XDToHbzqfnYJRruoeduBisshsQ6vJaxzHZAzyIK1Dy8HPadX4Pb-ucJQAqTcu6S1DCVVXIJXRjyYZOnAkhU4j46PtIpMW5PVsnTZhS0juxMRKyg_8Hd_HYj82GT6qDDVw5LPr9Ba11yodsKeTgakaqpUVCQ22rQeWe-fGmdhacswWAkns0HwrtMAaZWON54mzbH2M9iA1aNJ8JHBtgQPf3YfizV4Gt4_SYPq1UhpBcisw9Kmp8q3A2kA0O7phMyP7Gd68Jns-Pl98pkZv9X5Djc3HVtSRLNFl5ah0zbi7tUpxzulgz7U4jLMQgtLFQr7IXZIpR2Fci-",
+    "model": "z-ai/glm-4.5-air",
+    "object": "response",
+    "created_at": 1778072781.0,
+    "output_text": "Great question! Let's break it down:\n\n---\n\n### 📌 The Joke Recap\nThe joke was:  \n**“Why didn't skeleton fight? Because he didn't have the guts!”**\n\n---\n\n### 🧠 What It's About\nThis is a **pun-based joke** that plays on the double meaning of the word **\"guts\"**:\n\n1. **Literal Meaning**:  \n   Skeletons are just bones—they have no flesh, organs, or guts (intestines). So literally, a skeleton *can't* have guts.\n\n2. **Figurative Meaning**:  \n   \"To have guts\" is a common idiom meaning **to be brave or courageous**.\n\nThe humor comes from the clever twist: the skeleton *lacks* guts both physically and metaphorically!\n\n---\n\n### 😄 Why It Works\nIt’s a classic example of **wordplay**, relying on the listener to recognize both meanings of “guts” to “get” the joke. It's short, light, and a little groan-worthy—which is perfect for a quick laugh!\n\nWant another one, or want to dive into how puns work in general?",
+    "usage": {
+      "input_tokens": 67,
+      "output_tokens": 238,
+      "total_tokens": 305,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Great question! Let's break it down:\n\n---\n\n### 📌 The Joke Recap\nThe joke was:  \n**“Why didn't skeleton fight? Because he didn't have the guts!”**\n\n---\n\n### 🧠 What It's About\nThis is a **pun-based joke** that plays on the double meaning of the word **\"guts\"**:\n\n1. **Literal Meaning**:  \n   Skeletons are just bones—they have no flesh, organs, or guts (intestines). So literally, a skeleton *can't* have guts.\n\n2. **Figurative Meaning**:  \n   \"To have guts\" is a common idiom meaning **to be brave or courageous**.\n\nThe humor comes from the clever twist: the skeleton *lacks* guts both physically and metaphorically!\n\n---\n\n### 😄 Why It Works\nIt’s a classic example of **wordplay**, relying on the listener to recognize both meanings of “guts” to “get” the joke. It's short, light, and a little groan-worthy—which is perfect for a quick laugh!\n\nWant another one, or want to dive into how puns work in general?"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

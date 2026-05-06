@@ -1,0 +1,68 @@
+{
+  "model": "xiaomi/mimo-v2.5-pro",
+  "timestamp": "20260506_160506",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_zQ3uGw_5ihG3MRvxerMajdz7QdnmIiNiCquH6xxSTJjX9YQsQWa5oKUigxFsJlFrSOskS75gdvwye3q6ZU5k8eco3LQ0baDdwIkH2r7Q0qm-QjbvhpQhs4M9aP5Tip9s9m6rj5lGz9g3rKDhgk1JSbyZRbrM7A5QwJMfjPsrZvV8ljfudhgiJ4EM9qkfveugLz4FtM2Bg_3_TfXugG2ePc5j8GQ8AJY7oUveTpd9vIwuAXCy9NZXnaGlWwh5mP5S3v9S-38wW4ON4FeEyvEY587oqgQsKDTQTI0yvB-_5QsCgHpVIsPLX7fnX-Ga-6OU6afQHFG5JVjOhK9d0tuXCf_tksatmyT91ImWB8fnFXLp3jrkrpBn37c5PtzWJSUwagocnv-wGWlfo_GMGH1rbv7ACtfd1vj7aEK8",
+    "model": "xiaomi/mimo-v2.5-pro-20260422",
+    "object": "response",
+    "created_at": 1778072696.0,
+    "output_text": "Hey there! 😊 Here's one for you:\n\nWhy don't scientists trust atoms?\n\nBecause they make up everything! ⚛️😄\n\nHope that gave you a little smile! Want to hear another one?",
+    "usage": {
+      "input_tokens": 259,
+      "output_tokens": 70,
+      "total_tokens": 329,
+      "input_tokens_details": {
+        "cached_tokens": 256
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 23
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Hey there! 😊 Here's one for you:\n\nWhy don't scientists trust atoms?\n\nBecause they make up everything! ⚛️😄\n\nHope that gave you a little smile! Want to hear another one?"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_wdbTvuGLa41ndgl4uFvMs35BDl_5N7-lznYHd3ZodJTV4ts-6xh2kffI6UZsB4R63WHYyOuhb1o723gB8rXbXzWBC2NBPH61QJ3dlzXfcfp_x8jHEpQapCKoioeRKAwqv9VqHhGIjbt6HkkC01OVPjl04LDGGLbUnO5KDmdpEqTnjIVjoQBqWDqVycSy-oD3u4m_GueKb8aY57R41zkPOLyKvzjbquNbad6zxjziJwRfqdDVorhhHh5kGMs2-Tx172eyz70s5Z9DqZUm1UwVWYM7XNuBPqsW4lsA6PFHM4THylhPuYBDkeS0vvb0_XEwTsvRImrS24lOZ-Ys5MCgXxQ7vPEIibXPZr2HLydqgbuv3-pxDsR7l8rxAsS17z9GF5CkHavBkfmVwkgRDPb3Ze6A8MK-9P19JcaR",
+    "model": "xiaomi/mimo-v2.5-pro-20260422",
+    "object": "response",
+    "created_at": 1778072699.0,
+    "output_text": "Of course! 😊\n\nThe joke was about **atoms** — the tiny building blocks of all matter. The setup asked, *\"Why don't scientists trust atoms?\"*\n\nAnd the punchline was: *\"Because they make up everything!\"*\n\nIt's a play on words:\n- **Literal meaning**: Atoms literally *compose* or *make up* everything in the universe — all matter is made of atoms.\n- **Fun meaning**: \"Making up everything\" can also mean *fabricating* or *lying* about things — so the joke pretends atoms are little liars! 😄\n\nClassic science humor! Want to chat about anything else?",
+    "usage": {
+      "input_tokens": 323,
+      "output_tokens": 270,
+      "total_tokens": 593,
+      "input_tokens_details": {
+        "cached_tokens": 192
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 134
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Of course! 😊\n\nThe joke was about **atoms** — the tiny building blocks of all matter. The setup asked, *\"Why don't scientists trust atoms?\"*\n\nAnd the punchline was: *\"Because they make up everything!\"*\n\nIt's a play on words:\n- **Literal meaning**: Atoms literally *compose* or *make up* everything in the universe — all matter is made of atoms.\n- **Fun meaning**: \"Making up everything\" can also mean *fabricating* or *lying* about things — so the joke pretends atoms are little liars! 😄\n\nClassic science humor! Want to chat about anything else?"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

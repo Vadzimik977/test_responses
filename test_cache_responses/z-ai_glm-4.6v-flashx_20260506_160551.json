@@ -1,0 +1,68 @@
+{
+  "model": "z-ai/glm-4.6v-flashx",
+  "timestamp": "20260506_160551",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_t3wI5if-KemQgp4Y-ZgqMTCn0MAF2zJZ8NPnbbzRSRWozPSHufnDzSdeAQV4tVUo1GXAaB0Bf2wGoWetJGuw38vRAWmXNbhYuKwq4aY9awYd-a4KlNs8npZq_Y6T5bMNSRLk-pb1_jFRwm_vW5RAuqvW-h1tf0Jx1w1jGQsuMIUGchhfXpon0_DE2aSjbwj1-z_ixF2sHNWOWCGW9oKH2X1ok1vgTCwrCIv2MRbrfV-NRDxpmhxFwXERH8I6S0yqV2F2AOY9IHCZK2nPnkk8j3iGEc1-B6Mqxj5vHyQ9Mcv9ox8PfnmOxXVDbWlL_o1hVvbi_g4FjnFgSBy8yWWTz9xwrrscQ6juL_mO8G9SmvnbipjqR3pHqpebPI6LboO6zMW6otIW1YMYCEo9DpSxekt0NKO1Y1SkHwO2",
+    "model": "GLM-4.6V-FlashX",
+    "object": "response",
+    "created_at": 1778072745.0,
+    "output_text": "\nWhy did the chicken cross the road?\nTo get to the other side.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 763,
+      "total_tokens": 777,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 744
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "\nWhy did the chicken cross the road?\nTo get to the other side."
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_epW08nIzgOa048CqVuCVH13-gMJz3hmDb59YwmNzLolA3j-7pYYq8e3ENR9QXK5WhSxXrI_nkmzqHgnOVQzGuSAMNY7TryvvL42s_8UdUX1rKY_lvgb1BPfjuzLXFcqtEUHut39SZqRvr5VTSmFGWkCV4G9kcQdunavtaq0x6oEsG1K_N-knKoAUmvKyNRVilcL6YHlihq83MBeJgixpqM-mIRaUtOofmdlxw_y2t1cHxzhW2QICj8HulyOP3n6DgVsJqyrz9mEeNYtXQ23HN_tTVCrMnBaqKk23-MraqSNrK_bN2efeQO_MbFv9bu_NykJ-FI9GsgNOjVlaF3RPY9vYi6rvuQll2LKELIJOOV3h4jGE0UaiC1LIcus9H4NJGUgdNCrwg5ZoOXYCnyAgQm6TgGd0Y6W5MQ9J",
+    "model": "GLM-4.6V-FlashX",
+    "object": "response",
+    "created_at": 1778072751.0,
+    "output_text": "\nThe joke was about a chicken crossing the road. It's a classic, simple joke where the humor comes from the unexpectedly straightforward answer.",
+    "usage": {
+      "input_tokens": 46,
+      "output_tokens": 495,
+      "total_tokens": 541,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 464
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "\nThe joke was about a chicken crossing the road. It's a classic, simple joke where the humor comes from the unexpectedly straightforward answer."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

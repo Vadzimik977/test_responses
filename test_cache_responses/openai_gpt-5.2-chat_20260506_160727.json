@@ -1,0 +1,48 @@
+{
+  "model": "openai/gpt-5.2-chat",
+  "timestamp": "20260506_160727",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_y6yj5jc3NadB3wVviyww025kxPzdcuRrC6ocHPDdpI6w-j_wlKUr6mP5Y53dzBwVZyn-3Im_HHknhCtFSsERjtdym-61aBLtYzy74youk0FPL961zmNd_e88xe_f49wCHP6pmQwvYpeWFIecpEmonck2ozNjTE89Tz9xOYBOwhaym6ZBcPcpndstw_gaHp43bPsTBteBIw-7CAAc6GwK9yi-WU2S8KGJun_8GHwoK9VwA6q-e7XtelTwO22GW1JMBWNlhHEMhjzFTFkonMqk4FQU0NhonXcYfIC8l4rhzpvP8TPPI60piN1Ohy67fKsMwa8ty782AUOAHb333w2JmNrA6B9j3sZWxnneD1MqLL4sUreaG2eSjvi3hwEsWGyRbwWYDw_mL34dUWQegIosryJE7qb5ooAXPbvey6Y1pqEve9SeJKEpEzcWDg-pf82OmMyF",
+    "model": "gpt-5.2-chat",
+    "object": "response",
+    "created_at": 1778072843.0,
+    "output_text": "Sure!  \n\nWhy don’t skeletons fight each other?  \n\nBecause they don’t have the *guts*. 💀😄",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 44,
+      "total_tokens": 58,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": []
+  },
+  "turn_2": {
+    "id": "resp_1HWgaT4kHGSyPU4eXnxIRvuvvaN6fuYTlqwbvsfc_Pf3QutdC364tYB8habKrUkvws2MUZzlFud1kuuafOvoxxV_4ys4onRP75osGpXNqZxeSTGaMmrIxaSdKDBSmUrJZCg1RIas0t4Xv6Msm8hjPk5vv4ATkd_U1SsASwlX63QgKvYy5kCUczfnttiLDHw7QedooSGmTW9ir33nyoNXsMIsBWElDEdI6zSwnJm5b-4KnXRpo3Ho4AQzMGa2w2FGLXwIcP40DJgroP7ZIVB83anTIFADAYZp7s7g4rcdMc9bdWFYQ19NxbhYDSjihbXZ8FatSW5AEGrJNJNpMnIeUHts7Vr68EIkTMxVsR68t_IvW7zg2md8p1fw6F4E-KVkZnhpFz38JgAVsIDr1M4Qwru2CAC0S4-eJv89IMcvAgmUwrAC1aKTenhzWCaqw4vCg2-v",
+    "model": "gpt-5.2-chat",
+    "object": "response",
+    "created_at": 1778072845.0,
+    "output_text": "The joke was about skeletons! 💀  \n\nSpecifically, about how they don’t fight each other — because they don’t have the *guts*. 😄",
+    "usage": {
+      "input_tokens": 61,
+      "output_tokens": 63,
+      "total_tokens": 124,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": []
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

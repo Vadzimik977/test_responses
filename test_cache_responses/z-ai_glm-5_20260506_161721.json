@@ -1,0 +1,68 @@
+{
+  "model": "z-ai/glm-5",
+  "timestamp": "20260506_161721",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_IqpOQqQ9HIlSLHCaG5dAyo96-lal5cawELVtCAQ5a1JEikuMvqHBdCXIeH7x2TO9DNCK7WQDB3Vt7lsH7mi0nkRNc6UcrboFcf61oaz8EgQS5gcCBg2HXARynkKcdAalSNebKMlBJ9vhgsnPQM6LSR__M0ci9Zly76QGsZtC7O0XzkhpKnxbTnwBg1yttMJNz0-UXv-Q6-f2Aa6v06sboB2FjBRYUXJFkTL0p97Mifm9HnLRAWeH8wC1HFKmbSVy2urPBvW7Fs0Pwp0sTtRI-r8Iqt4Jqhuc5v37IfyGniNOnmfCJ1STHYS_mdpYNR0EetDIVEA8QZDWjISqgs-a0OUmt9YV61wXfvXBtV4RXYswK2RFeteChVyBQwadgVtzRlgyitYn9tp3Y_ytMgRmwe7Hox07EFnNEpkh",
+    "model": "z-ai/glm-5",
+    "object": "response",
+    "created_at": 1778073417.0,
+    "output_text": "Why did the scarecrow win an award?\n\nBecause he was outstanding in his field!",
+    "usage": {
+      "input_tokens": 13,
+      "output_tokens": 18,
+      "total_tokens": 31,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why did the scarecrow win an award?\n\nBecause he was outstanding in his field!"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_skSPZ-41msNQ-soGyKozNko8DI2aj0ZlL3GoujPnTecseJzOhCmJsSfJ1MTliAWl9gB_sCINYqBPbyPKXvsURNU6DC4sROS1vfm4uXP6avd5LaWGKB0oLlFujqCkChXDBnszi_p4x5NRls6-7MsLynzqqx0oYG5WfN_MkUZnZ-_IDs_0tQqKRDQlf39pjdV9FSZKZQczo89uG425FOYDV9nM5pBltoev-bdpoMluHfO5FDzGM2MDpRXJlQp22_Ge-HrkePQZBsh_RKxojKPLb7Me0LANrsN4PHwA7FILJdDWFhvhp1eG0VOt-6cRIODWFjmtR-EtGpmO7JWUNiZBkj_aZb-gbn_bivb0ADQWUCuYhChWvELwx2Q8LAVp_NbvAKoTM-oADHdwQmhINawO0li02Qv3DJFKsLUo",
+    "model": "z-ai/glm-5",
+    "object": "response",
+    "created_at": 1778073429.0,
+    "output_text": "The joke was about a scarecrow.\n\nThe humor comes from a play on words. The phrase \"outstanding in his field\" usually means being an expert or top performer in a profession. However, for a scarecrow, it literally means standing out in the cornfield",
+    "usage": {
+      "input_tokens": 43,
+      "output_tokens": 55,
+      "total_tokens": 98,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about a scarecrow.\n\nThe humor comes from a play on words. The phrase \"outstanding in his field\" usually means being an expert or top performer in a profession. However, for a scarecrow, it literally means standing out in the cornfield"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "model": "openai/gpt-5.1",
+  "timestamp": "20260506_160614",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_AMAQ1LNKzMv1ajRV6gb46IwaDz9KwirqhvsdgbWGq5LiDZ9BhcPjfEkY31VVHU4yOF7OM8wpbTd53tcdEEG12EqgylCxLN-CzCq1-_KLaGJ5QvD0XMeJR0HnnGnjj4oVKCWv-oDksg49v_pQZqFoOkO_79OilZQPo30rydt4wbO50MQnWWgbLaUuV0ttGSJkFeD6C_CKKxRqod7xKLcIdKksaXpHAZioNEbF39TN7rHBUskddMMEN3NtZYUF2KQqaPBbqooZlOiHv6Xx7g7jqXBBVLOMEgvanS0YgN4v29L_E07o1ksZ9JO4Yz90ymrA7sRcCDfK7Rxr5uif8rBMpIekeMPZeYWZi0ynr2lWeO_p8gZJi_psYbWr2__EXqnORGDsi69_ikInjQs1BccoYU6AhuIYCKnAoVH3TgpBI6YXK1QGzRDR_WFoXXh4-Dn-1FRi",
+    "model": "gpt-5.1",
+    "object": "response",
+    "created_at": 1778072768.0,
+    "output_text": "Why don’t programmers like nature?\n\nIt has too many bugs.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 23,
+      "total_tokens": 37,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don’t programmers like nature?\n\nIt has too many bugs."
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_zdpbbeS99AeJLIhd3E3rRJHH4afSXs2SBHk21jDxnmrBaNk-JmYu47TRRffVnUs-jMeWbXLQshnYuLZ57QDMVYQQtQD8ET7f3vhk3lSDgOIvXJehD5ghkp7TBbN5FNGbPmW18Qzi3t6BRscuAYryJot9EIUfsmM-IJLi9T-ua29VB0YjzZvGxF3ibRMitE4Vere94wasMNZITziaV5LpkBfF6fzVPtpwUCB2wvQCr9xtI47hDtOTH0_8NI6fWciX0tyOIlXmxRPsmJJJuT9lbI4ETD1ZtW4xJ1NzG2Zei9n1vhZtQq6UMVzLUKheohEVKNeMKKkYlL3E_hKmUWFTk-Msy0UjT4bqZhkllI1HgI6i8akXUlQ_p5rBQCukliyXA86O2zC7cLnFVbur4dpfbx64Kbo_zCQZWpmHK3tHw9Qp6CGg_z-OrwJ71ojTGRQSgBst",
+    "model": "gpt-5.1",
+    "object": "response",
+    "created_at": 1778072771.0,
+    "output_text": "The joke was about programmers and “bugs.”  \n\nIt plays on the double meaning of “bugs”:\n- In nature: insects.\n- In programming: errors or glitches in code.",
+    "usage": {
+      "input_tokens": 47,
+      "output_tokens": 47,
+      "total_tokens": 94,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about programmers and “bugs.”  \n\nIt plays on the double meaning of “bugs”:\n- In nature: insects.\n- In programming: errors or glitches in code."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

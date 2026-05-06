@@ -1,0 +1,48 @@
+{
+  "model": "openai/gpt-5.1-chat",
+  "timestamp": "20260506_160605",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_t6ZLOdj7rLImEu3AFrJJjDGs5cRIZcMpyDMbwFAigz2dW6jXUU4cKWMOrF7KgBPHUMvR3Ucxy_lVHiAW4YLcAj7t_-X5zpehiOgsHU3WdQhHkQRnXZf_ByBnRiTbgFDjVN3FQ2VNM6owiS0bMIvSVZWmhvipidZe34cytDVNyUxx6wGirwDOOaB0UfRawIyGTMdW-ZJ-iHjHqusr54OLfT6GZT94u1T8x4tZg3Goshw207KQO0ca6I_LmnjrzEwoy2IlS4mfTmW5ZmkfeevF8cYOtixcu2tYKxe8Tr5ZCr8Kodnubsmli6tPw7fh8VE-oGeDaYWWWEfDKFLUtVJBaOZC2Npm0zDNofFu7-3_Ey6jEOa7xJ_tXUQWYWHVHTaX3zrPjFQ06AbKzIaM8qrtw7ZTGe5dJeW-gJ4qsqmYruCn7gRBeAp1GwqCEBdGt-UqjnvJ",
+    "model": "gpt-5.1-chat",
+    "object": "response",
+    "created_at": 1778072761.0,
+    "output_text": "Sure.  \nWhy don’t robots panic?  \nThey take things *byte* by *byte*.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 53,
+      "total_tokens": 67,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": []
+  },
+  "turn_2": {
+    "id": "resp_geEyiE8KcxUJSpF7U05jCXLMd1cfT0PEc4tUe5IS7YAbjV_54L8XMZvzIdcRfNeAQmJQWKMsHFwazW61GhapFQqM93jZ3WSpYOL0v_iB_pAALoXMuo0odqc18k0DzXQLd1HiMf6WcjLRrtuPJiruivC3PlAFfbHJJ1H7oaraF8_Wo07OAHscGMn_H0kDujhI6DmNk5Oxxw6C3c4GLoHb807p__2f00NQYmkEeHUO7i_D60smAL3O1phzsLlAsQSFetDAE6rXoeWeSL6veBOntdrSvKJNAhBLPTFgiGizT-Hw1VGKkThXbZqG_zY5coCaV9B5Z07flVJeFtUffDCKLrjpQQo3VGQY7DHOQwVN9e-EQPwiwml3yaVuZlKy4YVqUNtniumgWKXzFyhivS6vtyXyJ3Eg2WQBXLYLoiLMcQ3A1fGilw7KRY15ZrBgUixbCk3p",
+    "model": "gpt-5.1-chat",
+    "object": "response",
+    "created_at": 1778072763.0,
+    "output_text": "It was a robot joke — a play on the word “byte.”",
+    "usage": {
+      "input_tokens": 54,
+      "output_tokens": 54,
+      "total_tokens": 108,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": []
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

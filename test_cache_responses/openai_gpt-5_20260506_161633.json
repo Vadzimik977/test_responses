@@ -1,0 +1,48 @@
+{
+  "model": "openai/gpt-5",
+  "timestamp": "20260506_161633",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_PqaUdW9neF2Z2wW3B1PKD_GTPxGp_XxVN-8Ga9gAq0s_rG-ukeKsHyRw9CdpHCfKmaS06iJ0VgFKdlZp5k9wiJFDKTvw3kvps84cZ23Itaf7yhrnexSo7t81OpbMCXq9Jf0tqb1xFzYoq1cUTD9HHrUomYdJxeVLQY42I9LzwD8R1Wb3XI2gc56tel8OWnTcVP4wHtF5NaRXAXcre3WAvJcXA0ciuJE3zSbPk3j-ORNz5J8Ueqii1_4R39_dg9ymgnoba8g4ncgK1S8FpqCX-UdLzsT9ZxPURCDpTD9SXSh9ll2UyiyubkLl13vVX7s2rHztUV3KKmluljdCoZXq1b9PpjSPdzcDcis-iEsH7a07jqC3aEfT4-ciYPEu9sKSdq25fkdrE_6Lyv5xvKf6W_Qaz9c0Y0OtLej4YmP0l1jQY5OdozJbeb2x6sy_81m-ve0o",
+    "model": "gpt-5",
+    "object": "response",
+    "created_at": 1778073386.0,
+    "output_text": "Why don’t scientists trust atoms? Because they make up everything.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 146,
+      "total_tokens": 160,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      }
+    },
+    "output": []
+  },
+  "turn_2": {
+    "id": "resp_TYjJ4j7JdJTePrzYTU-6xBqGMcqjbUjgFbe44c2EG4L0X4zuWG2WnwyUNMRJAYlAGrl1sYlTc8QC8chY5bpwSa1Y3Lxj94sLxq47z1-2-cFfCYZKWe5q2ET_eTnrngWZYFHnurZaT9Oz1FJ7wkISTM7MiiCYimfYJAdZMki9Ki_AEQNiJRTtgsXA93Tp11I4tVzLijli5vao6JRIILTaoOUvr-aF34UXHrC-aIDZNafd9vGDjsHyXXvg7-x0XN4isBnt7y8i01Z5VTr4ADsnXay2rvYvdWOOi0Xwom8CXcz2tqvZVEGOG2B9HK2y_LL0vf29_dsHi3vcGewoI5OxhOK1jrmb4xlJ56rdzl0lmTr3M5P0xYqbOScBphgTFdgRaznsImShqDNgxQzSF2jb1fjqVMtEjEUgJfRaEY3PU2bkEIivG5t30j7ZILYYu_VXWDGO",
+    "model": "gpt-5",
+    "object": "response",
+    "created_at": 1778073389.0,
+    "output_text": "It was a science pun about atoms—“make up everything” meaning both composing all matter and telling lies.",
+    "usage": {
+      "input_tokens": 47,
+      "output_tokens": 212,
+      "total_tokens": 259,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 128
+      }
+    },
+    "output": []
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": false
+  }
+}

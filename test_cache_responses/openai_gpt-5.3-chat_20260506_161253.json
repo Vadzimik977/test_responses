@@ -1,0 +1,68 @@
+{
+  "model": "openai/gpt-5.3-chat",
+  "timestamp": "20260506_161253",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_nu_joyxgNn85jqzyW8-WBukWeYOAXHLoh_Uu9pfeZToYFGEKytrdNkaiYbJS8JJbc1DfJklf0zoAI84C0URlH4vJIDHDCi6s7-hRjnOE5Ve1MMI-BMq_5AW-micFMrhRZSAEbtAThSzk0nXMEdshbP44ZfcKdx1zKrxW7aWsEgjNDqUi7VtRGp-c6bvO-BjoalxUpdmZwSkPwOrPrrDbsDLZ-vV7lLzqZv4W88qa3lYOxqMixxP5Q_LTMa4B-Xla_MZkDjk5UJ4T0ShqYWbqOkNM3B1IPe6SPdUfVNc_uxqkCjxRK-fT7-XNx_pydTGeFh1decRv5dwk9XlJeIdqoTcSkbuJFIu_0wp-nsRFJOtCsqMRBgnEQrGizGs8befcs_ktc036-StjCWvI1yOcIFYZj2CsffydYJtVAbXyQnB6ULFf0DtqBvJsdvR6f6t-UpY3",
+    "model": "gpt-5.3-chat",
+    "object": "response",
+    "created_at": 1778073169.0,
+    "output_text": "Why don’t skeletons fight each other?\n\nThey don’t have the guts.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 20,
+      "total_tokens": 34,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don’t skeletons fight each other?\n\nThey don’t have the guts."
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_J1ygQWWz7WE4kSatGIosu8OOQHWutNy9AV7Dxszkqx78Yqk-zq4Mdc3CLl7JevDl8X-w5PSJkNKG6xbzguhAG-LpT7mYcGO_01f-my8h-PJtxtuYU7BidOpxsuQtvVqugo00f4UWQaObAV-bu-lRkM7h761Xzwzh8K3h3jU0_EDDVVEbyWGln8nAOAvfsT2pBQh4RlyS5FaMYlgp_QGIauSCa7lez6BFScOxm8CtiG1sbrbBfMBfuS4vjUgUZWbf0wEjGxip1ImxxJHc6t7rnNfZXz1Wsjn9GwxMnOFIu1zCSUV2v1CQorlbawfizgVYr86br8sNipYHwONk0xvMB6TRCAREV0XNm6z06ge6wXmzEersADu02nT_A6FUhE8h1BKe0lmGgNKMcFeevTJpSSc8VcvYrMoopOqt_IxXtsxtKmx5XWYRxEilOi4brJJZMqSV",
+    "model": "gpt-5.3-chat",
+    "object": "response",
+    "created_at": 1778073171.0,
+    "output_text": "It was a quick pun about skeletons. The setup was “Why don’t skeletons fight each other?” and the punchline was “They don’t have the guts.” The humor comes from the double meaning—guts as courage, and also literal organs, which skeletons obviously don’t have.",
+    "usage": {
+      "input_tokens": 50,
+      "output_tokens": 65,
+      "total_tokens": 115,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "It was a quick pun about skeletons. The setup was “Why don’t skeletons fight each other?” and the punchline was “They don’t have the guts.” The humor comes from the double meaning—guts as courage, and also literal organs, which skeletons obviously don’t have."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": false
+  }
+}

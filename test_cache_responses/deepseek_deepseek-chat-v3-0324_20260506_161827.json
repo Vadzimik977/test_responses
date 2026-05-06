@@ -1,0 +1,68 @@
+{
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "timestamp": "20260506_161827",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_NxY-JHCVLUKwCLjW3ygfLGxktt7TGK4bsheKhOFaxDKyWFp8Lrrb-OtvrJPEoyXvY-XzIxfLM0qeeZUuLOfAWSKqyV-O0-ReFxslwlPEYAideh-OqOBF3_ObRhtsIOt4Ip3EU48CLiqUX6Kd0VVF5On6TzJB0xg7i75Pxpu26Bf1oHrcqkZas5scrlO1y-K6AALsdKXiKMHJ-B5UJ17uh7nto1d2nWq5_jq5-yrgY6lZW5Idwpat775ichCoUqhTDnWwTV6VW4bRzbypIGIzo1e5y3MW5gUo3rI0-UfVjf1RQeybk4QYNoPRtUNl3KeY1ZigRExXLMoLcpZzbfcMpH78f6iTHoozED15gIg9Pprw91f7_1n8PtJZ7xygcetunItfDHTjlOjKgxTvfD8fUVTdJ1A7GCxs_I6l",
+    "model": "deepseek/deepseek-chat-v3-0324",
+    "object": "response",
+    "created_at": 1778073497.0,
+    "output_text": "Sure! Here’s a quick one for you:  \n\n**Why don’t skeletons fight each other?**  \n*Because they don’t have the guts!*  \n\nHope that gives you a chuckle! 😄",
+    "usage": {
+      "input_tokens": 11,
+      "output_tokens": 46,
+      "total_tokens": 57,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Sure! Here’s a quick one for you:  \n\n**Why don’t skeletons fight each other?**  \n*Because they don’t have the guts!*  \n\nHope that gives you a chuckle! 😄"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_38Nc9D6ppt_CbNvctPNLcWg8oUp0ZDBm4h75h3YqLC45pOomNYbD49mfaqmHaWISm31cQM-n8K6-FSrTtGE5xZtqW5rCw5LiMGMyTgrKg9K7UHqbujXRNACBKBdklR72eVPMNdOLYndM8Y4WqeSw-aPWuWPdKwsaJMsHT2mJikhXanAuCVaIEFPkSVF2B8QRabwm7DoHmuhloYWcuENYSGgKNrHDVTzzXLG3POegh6P5BccsKtWC-VAVJIkaLcKkxHsgcAiNYnqX8X5Wq9pDFQsxOwWsiDg5bCK0TSkchZdlPMSYe982aYRVx-r9Kg-W5-1V1xKsHVejQ8WLTlDJjqIIhoeTzG8i7h1FjMdJM3bNld14_hRnSy7Hyu2-UDvwieYFJs7OqHbFrUq-kla5AQubfU0Fk5l8wWoP",
+    "model": "deepseek/deepseek-chat-v3-0324",
+    "object": "response",
+    "created_at": 1778073501.0,
+    "output_text": "The joke was a playful take on skeletons literally not having \"guts\" (since they're just bones), which makes them incapable of fighting—because, well, you’d need some guts (courage or actual organs) to throw a punch!  \n\nIt’s a lighthearted pun that plays with the double meaning of:  \n1. **Guts as body parts** (which skeletons lack).  \n2. **Guts as bravery** (\"having the guts\" to do something).  \n\nWant another joke in the same spooky skeleton vibe? Or a different theme? 😆",
+    "usage": {
+      "input_tokens": 69,
+      "output_tokens": 119,
+      "total_tokens": 188,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was a playful take on skeletons literally not having \"guts\" (since they're just bones), which makes them incapable of fighting—because, well, you’d need some guts (courage or actual organs) to throw a punch!  \n\nIt’s a lighthearted pun that plays with the double meaning of:  \n1. **Guts as body parts** (which skeletons lack).  \n2. **Guts as bravery** (\"having the guts\" to do something).  \n\nWant another joke in the same spooky skeleton vibe? Or a different theme? 😆"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

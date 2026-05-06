@@ -1,0 +1,68 @@
+{
+  "model": "z-ai/glm-4.6v",
+  "timestamp": "20260506_161811",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_8a_pYH0yFWqD1VNwilNUcsgM-G7P-vRxhIUsu7AM_Bg7CevaO-c7cn7p9AcqarsyK2APAMFg4O_aupah-VVkv-aOyEbBsHHnXurt8xAo1s_OWizwXuM5cQeiXYgWPD8Ung6Wfad9-5diQ1ZZMI8lysLbvdSj2iDQHYjWfDu0uQQ8WugA5w4k4yp3YRBwZ5aSkwyTE9bgCfsBxc8cRvTNwILS8yZX4_FKqO5blbe3RxflpuDP-2DYF4Ysv4Vu7ej6D3cvmeK-AQDNFgFudSIYo23Fx3k4tIirfQANYGKB73wLfw2W_d0XAZSOiIqCORym_u25_X2GR-LBxznyyl9oQ9fII7vHkRKAzoP2XJ4tgsRBv1cHF8vqm9FnlU2w-tC537XF-QyB7p6qTyXeF--Jf9NvJtPKZMzYIOoW",
+    "model": "GLM-4.6V",
+    "object": "response",
+    "created_at": 1778073470.0,
+    "output_text": "\nSure! Here's one:\n\nWhat do you call a bear with no teeth?\n\nA gummy bear.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 1090,
+      "total_tokens": 1104,
+      "input_tokens_details": {
+        "cached_tokens": 4
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 1065
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "\nSure! Here's one:\n\nWhat do you call a bear with no teeth?\n\nA gummy bear."
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_4mZyQ9rXIsFGL86U03bp8BvSbkec8YKGUGm4YQ0RmV65oRsrqopn0SrDfhxmZecFktDhhowcxfYjCw_W6rRM2okuGwsqKVrQJPULbaelcbZy79jr9chn9Vb-8Wp0TWYXrwZ-yJ4mZ1J8wdN89krtiuHywMduJmbIPRgLyM4WwYmj36qolrX2_VP_OS64xTXQFP-jaExWGIQiPsHILAOsyLw5dhxDRY-N7YO553Csw8nELhiuwHMob5XVewBL6r_SXEASJaN8sqUE4Qke64ttGQqAhjrgddJxd6AX_9bZ3KT3FVG6KY3HrsWQ1L0BhpPEAECmeArV063hKWy-vy0eDnL6wXZib2kt95WuBvRiSzjWI2kqUbYyqGvGpxfauFgqa1IXEG7GNJW1TyiIrc2mldMBYD--IBJA3O3E",
+    "model": "GLM-4.6V",
+    "object": "response",
+    "created_at": 1778073491.0,
+    "output_text": "\nOf course! The joke is a classic example of a **pun**.\n\nIt plays on the double meaning of the word \"gummy\":\n\n1.  A \"gummy bear\" is a type of chewy, gum-like candy.\n2.  \"Gummy\" can also be a playful way to say something is \"gumless\" or \"without teeth.\"\n\nSo, the humor comes from connecting a bear that literally has no teeth to the name of the candy.",
+    "usage": {
+      "input_tokens": 52,
+      "output_tokens": 868,
+      "total_tokens": 920,
+      "input_tokens_details": {
+        "cached_tokens": 4
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 768
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "\nOf course! The joke is a classic example of a **pun**.\n\nIt plays on the double meaning of the word \"gummy\":\n\n1.  A \"gummy bear\" is a type of chewy, gum-like candy.\n2.  \"Gummy\" can also be a playful way to say something is \"gumless\" or \"without teeth.\"\n\nSo, the humor comes from connecting a bear that literally has no teeth to the name of the candy."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

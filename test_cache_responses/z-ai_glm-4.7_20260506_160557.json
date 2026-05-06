@@ -1,0 +1,68 @@
+{
+  "model": "z-ai/glm-4.7",
+  "timestamp": "20260506_160557",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_d1ZEC4tWN_5QKUSreuwkHzAcYKPBRqa7SPKsUXq0A0eHrligrrr3wZkxYRGp9GsDdcjDpzNLNHP7rQZ2E68UJlVasrbvxxhwkwHuvdPJ6Wjgx0vYMO6XDtC5wfH_UrBkVLeq-KiiyMG2Vwqa4QfUm7K4hLghhtwn8LvK7_l_5Xi2upphOYDzddIfDjeNoPexju1vIYqv1EzSNONFV2vdjV7fdrY8uzQ4nm7H0BsfA0WTmMHsHDOcB2EFdUNBHuB3YWaESM7BsdOiDZiT5I_GkObGdUxJg7D-JRkPYXVmDMdQ5b4e8-k0LvunXNm-1a3hJrRyumI6cBdcvh59U50QVcMUA_C41bOE4dVZwzcUJI1Pf0syS21r7ZN7d0vCFmzy0XFjcAs9TINXjjglqPeptej-sWs2ucA-LqTe",
+    "model": "z-ai/glm-4.7",
+    "object": "response",
+    "created_at": 1778072755.0,
+    "output_text": "Why did the scarecrow win an award?\n\nBecause he was outstanding in his field",
+    "usage": {
+      "input_tokens": 13,
+      "output_tokens": 17,
+      "total_tokens": 30,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why did the scarecrow win an award?\n\nBecause he was outstanding in his field"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_lVdecxv9QE7BJruglPThjU9mseDu7YbTWpwFwFsQSMEpay2bzt21e57W0DJSPZIN4JNVgA6L-Em8wGeck1v8h0dDsThCFj_0NwOEXq9AGc9NlP8R1bMWQryGY7KbMa9ANCCnw0xSYec42GQCX7SWQeyrwYCokX8jh5kpaRShZPNS0ZVfh6MWSHhsn2Sbo41cF3PKitnaDeDVWsRy81VdgD2tHOBZq9KyYnza0D8T--JNRRK8uZaQjht9185xmfxTw6gAEaHa5zn6fCYQMgYjL9FpAkbwCDbODsHvqX4Dn2vGXh_ucgC-b_jcaY1G8c5ewhANQRSbx-_s89Df_Yyj7u0yElOdMXz_quT2APU1Uy7_cnTfkq-FMjKYBLOBORp8BypjWaYPr0SmgBuJPSYiEI52eOzft7kaVWbm",
+    "model": "z-ai/glm-4.7",
+    "object": "response",
+    "created_at": 1778072756.0,
+    "output_text": "The joke was a play on words, specifically a pun.\n\nIt relies on the double meaning of the phrase **\"outstanding in his field.\"**\n\n1.  **The literal meaning:** A scarecrow's job is literally to stand out in the middle of a field of crops to scare away birds.\n2.  **The figurative meaning:** In English, being described as \"outstanding in your field\" is a high compliment meaning you are very good at your job or profession.\n\nSo, it’s funny because it takes a common idiom about professional success and applies it literally to a farm object.",
+    "usage": {
+      "input_tokens": 42,
+      "output_tokens": 123,
+      "total_tokens": 165,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was a play on words, specifically a pun.\n\nIt relies on the double meaning of the phrase **\"outstanding in his field.\"**\n\n1.  **The literal meaning:** A scarecrow's job is literally to stand out in the middle of a field of crops to scare away birds.\n2.  **The figurative meaning:** In English, being described as \"outstanding in your field\" is a high compliment meaning you are very good at your job or profession.\n\nSo, it’s funny because it takes a common idiom about professional success and applies it literally to a farm object."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

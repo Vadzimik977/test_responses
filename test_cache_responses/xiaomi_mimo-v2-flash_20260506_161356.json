@@ -1,0 +1,68 @@
+{
+  "model": "xiaomi/mimo-v2-flash",
+  "timestamp": "20260506_161356",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_19qCvcEWLho9QVhEfo6ga_TRUlBqQlucYDaff4Na-FBOCYIUv0WEtwty1DwhUvQBCugfm8vBjhvBWh0QgpeAFE9JT9fBJHTwlnYcpXPpvTKU4bHYwgAbzTxEvQoSxX-7gZikgfyOuwybUUR-Jmc7fNqN5Uj9H9rvILujXBP75NS1wSf32ROi7i7VjUJA5SvKoZ_C5CvCpprZuIuNR2U9Mu4Xzc63zwU7F6yj7FTRlXHv-gA3vpWxZOhznZDOQOgm4THqWa_HqqF8j6NVLxf4AZGqlm3qj6xapmU4SA2ASM8bQJotb-D06h8yt7g80Q4WStM3F9yqeRvu9T63EzCNzhYC2woDZbIkkrIxoKbCyGUq7vrwdZd18EzWOvU38c2EM0dYNXDD_Jd0DrYSilA-p0G_J-F4ioqlSrAT",
+    "model": "xiaomi/mimo-v2-flash-20251210",
+    "object": "response",
+    "created_at": 1778073232.0,
+    "output_text": "Why don't scientists trust atoms? Because they make up everything!",
+    "usage": {
+      "input_tokens": 45,
+      "output_tokens": 14,
+      "total_tokens": 59,
+      "input_tokens_details": {
+        "cached_tokens": 30
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don't scientists trust atoms? Because they make up everything!"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_HgEwMaXshYcl1G0Bae9jdZfkJv9WpBrHIQnn06-lPbBr-696etUM9tRz6zs9exAuOa81dwx53YqvdzeeG7_YOv_Pw5-dvIvqlGY8GSW6Mcj6aldqsfbvAUEm1bGxs7oTbDp4QmHidwDRXMnQoWFNcxKYW1X0sEijinf-IXbbXMnD9QJmSD8mA99qA3tj-3s3fOV38ehaml2ovu2xeghZGnlKm4Zyac7YdKVJwOOaxO0sAhfUT8Wmq82ex_Pie0rQ83tvQyj0McOOfRWHxG61VWsKcqpbs8H8yrVkbI0L8CwoPCqA9Z1jdAjmR5z8lcK6nVtWZAp_sh74uOwZd0fRZMXoIsL1z_P06tHyP7txo6r8dJkh3eCgTW5da41kQklRvQGHY8EtEm0Optj-kMD4GzCx87WVLMxTDrpo",
+    "model": "xiaomi/mimo-v2-flash-20251210",
+    "object": "response",
+    "created_at": 1778073233.0,
+    "output_text": "Of course! I'm glad you asked.\n\nThe joke I told you was about atoms and trust. Here's a breakdown:\n\n**The joke:**\n\"Why don't scientists trust atoms? Because they make up everything!\"\n\n**Why it's funny:**\nIt's a pun based on a double meaning of the phrase \"make up.\"\n\n1.  **Scientific meaning:** Atoms are the fundamental building blocks of matter, so they literally *make up* all physical objects.\n2.  **Idiomatic meaning:** When people \"make things up,\" it means they are lying or inventing stories.\n\nThe joke plays on these two meanings at once, creating a clever and unexpected twist. Scientists, who rely on facts and evidence, wouldn't trust something that (in a figurative sense) is constantly \"making things up\"!\n\nIs there anything else you'd like to know about it?",
+    "usage": {
+      "input_tokens": 78,
+      "output_tokens": 180,
+      "total_tokens": 258,
+      "input_tokens_details": {
+        "cached_tokens": 44
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Of course! I'm glad you asked.\n\nThe joke I told you was about atoms and trust. Here's a breakdown:\n\n**The joke:**\n\"Why don't scientists trust atoms? Because they make up everything!\"\n\n**Why it's funny:**\nIt's a pun based on a double meaning of the phrase \"make up.\"\n\n1.  **Scientific meaning:** Atoms are the fundamental building blocks of matter, so they literally *make up* all physical objects.\n2.  **Idiomatic meaning:** When people \"make things up,\" it means they are lying or inventing stories.\n\nThe joke plays on these two meanings at once, creating a clever and unexpected twist. Scientists, who rely on facts and evidence, wouldn't trust something that (in a figurative sense) is constantly \"making things up\"!\n\nIs there anything else you'd like to know about it?"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

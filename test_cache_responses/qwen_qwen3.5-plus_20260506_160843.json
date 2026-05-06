@@ -1,0 +1,48 @@
+{
+  "model": "qwen/qwen3.5-plus",
+  "timestamp": "20260506_160843",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_XV8_Ne-hC7QdS2l25hUIp-dyNufu5yUuSFqMU6o1cammvrfjgtFU8YcKUXUCfMu6cO9AlW5F7sR1JtYLhFhRfPgP5UfVifxWO83ViuH50Ef_H6_-1XdBG-ZScqzp5atj4hEq3j6LtQy5rO_fom5pHaOM66gFPWPfxQkuXZg1f8Sir95cYpr5hossCHe63k31G0fwtkXPpfSeT4y_i9eTX3I5atbjKefYDcjMwa3SmqIY5FR18OOyvXx16awwuc7Bp5T9q0FzBqx6iaEoS32afmgYJLAm5sKPL7VU2QrTdC059zsEmpVbeFxYf6Wc_qcLc5dnDP_gmg5gVXzALOlPWLyIHQaC2WH93axjJ88TaqlAFKg2f8XD_SqqrxGTtrjVIyZMXidv3uqvBtllqP1RQWr38FqrP0shHYFAvtE6yg==",
+    "model": "qwen3.5-plus",
+    "object": "response",
+    "created_at": 1778072900.0,
+    "output_text": "Hello! Here's a quick one for you:\n\nWhat do you call a fake noodle?\nAn impasta!",
+    "usage": {
+      "input_tokens": 54,
+      "output_tokens": 541,
+      "total_tokens": 595,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 511
+      }
+    },
+    "output": []
+  },
+  "turn_2": {
+    "id": "resp_dfQDuOBXWij4Byzbg43_-j5EHI6ZlI2tYAKJaLQPKJ-qwbhvGIAI8bKAi9iEQ0cVieAT0b2b5GiZQIQ3cHDrfgII_vBOQshegZtG202O8PmNT_tKBy-ZnKxSonOiX9t41fZad2R298fcdji5j7jkwv16cnqBhBNevNb1x-hGgYiP1rlAss3T_5IpGw4Zw_ZNzXdABoHYrdZXvBpZYPx5pzZMZ9HUqJsOflc4mfltCZsGXTKKpXkdCG_WZkLzuqkqVs5z9I6CDvMD5buozTSI723K8qeaAuLb4ZK-X7BoA5y1KW844G6iKXKyqHJjGruO8cF4Ct9mkEjO_OyEm9AznwWLhr5viHk_od120YHdQoMGQ_rxaKzm9-bNj1JAtvZ6rJ1FupkE7X9FUmsBTbKzHvDn-fDMvQsIXxYna0Uv2A==",
+    "model": "qwen3.5-plus",
+    "object": "response",
+    "created_at": 1778072911.0,
+    "output_text": "That joke was a play on words (a pun)!\n\nIt mixes the word **\"imposter\"** (something fake or pretending to be something else) with **\"pasta\"** (a type of noodle).\n\nSo, instead of calling it a \"fake noodle\" or an \"imposter,\" you combine them to get **\"impasta.\"** 🍝",
+    "usage": {
+      "input_tokens": 99,
+      "output_tokens": 621,
+      "total_tokens": 720,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 542
+      }
+    },
+    "output": []
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "model": "openai/gpt-5.4-pro",
+  "timestamp": "20260506_161608",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_tZ471k_YdurvcWUtNq0L_gVh7w3OT3JsXFRu1I5EieVS7pMmyBuKPGIP0Qnx157G5qPX_6kH9JeUx1_ALqvbIs0ihmzj5mJv_qpM5-YIGk3_9_-Ha89qbMfhftCrwcsgdKgQiyFZhiNs0HQkOen5frV7FGYLhoah7qzEv3jABZYvCflb9N3eu8SnR8vfRZlgnnBUX8j_GkdwAt6j6lNhTWekZJxzOCs0HTwmfoGkeRK_JJEXeqzVUUx8OtKjfyxD0X1sy5ko5vDblvKvZyRkDfnp0yTfL-afP3MRkv7l9etWKFoMHnBV5oLJYwYTQgk0jsefjBDHKLZv6G5QmXSdISOeChZYet66CGOq2GSkfMwpCJCz4tiS2y9_bUaaSWFlnOEAtIWrhe6XumFJxQYa7MiXzVBI7Lt7k-cb21qnbf3wpfOl3jFPP9R1H2mukz_bm8xC",
+    "model": "gpt-5.4-pro",
+    "object": "response",
+    "created_at": 1778073327.0,
+    "output_text": "Sure — why don’t scientists trust atoms?\n\nBecause they make up everything.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 51,
+      "total_tokens": 65,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 30
+      }
+    },
+    "output": []
+  },
+  "turn_2": {
+    "id": "resp_sg2WLpPwO98D5PmctwoorvuA7aBTexXSW3BK-DIRPDnis_-TwM3khS1eSfkoMsqeo0fgEgE7z1w0yz0twgGdUU0BSJNXIhlPsDBwFAZTqLDp4p2g3JEf_FllY2k5XFZz6tg-TL51xiiEK7Ke-9nCXNKGFAymVQcvRrb7oIJiRN7rvTN_1FfBZ7mF01sDVBmmhyvJTpA3DGidCYp1LFO3PA0gfUqkPaiAP5QFueeKHqCs2xwVWCezmtZrSX0ECwqgvsy-nGeSTsmAqHw1fsLGlbPvom8Zm2C84U5OGL-oAykoZCE2DbmjFmLw0yeZa2R0zOKvRer_1UyNSu2gvcUNAjaOM3_yrx718oP3Kb-D25iccm_TW3xKpZ9STj4vbujj_389hyfg_h8kdSFNb4wQrHfb3-EQ3mYHVb2RDYEthdHQrFL8Ma1wycHLkd_SikmNVJ2y",
+    "model": "gpt-5.4-pro",
+    "object": "response",
+    "created_at": 1778073342.0,
+    "output_text": "It was a joke about atoms — the punchline was that scientists don’t trust them because they “make up everything.”\n\nIt’s a pun: atoms make up all matter, and “make up” also means inventing things.",
+    "usage": {
+      "input_tokens": 49,
+      "output_tokens": 87,
+      "total_tokens": 136,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 35
+      }
+    },
+    "output": []
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

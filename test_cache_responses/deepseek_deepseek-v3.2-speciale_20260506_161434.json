@@ -1,0 +1,68 @@
+{
+  "model": "deepseek/deepseek-v3.2-speciale",
+  "timestamp": "20260506_161434",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_6Jb3qhIlfR_HWtWAaekWzerrAigky9HwJ1QiEOT2Q9YyHHIvKxl7Dc0zavRv0o2GNQ-bUg-UVfhE-RoVTwBjUiSDJ-8B5xzYLdsyrTP1afYdB1nK8KSvW9Sh2T71lQ-N-r4ZOTHkWfTPrtm1lDmLnTCV9s2JvZtoqSK6VTm5vxLgBLyoXs_sLggNIrSWPgkg4lhKeX7l04B-Wd4WENRgVsHFxispGHdrRNLYW0lkBJ_v6IUGKy_pLygT2aewQWZHNTDq1E9k2PUac86Ob0vz2-sBmEd-SnmxfCCR3G6g2nbZxP_BOv2uGBJtday_Rx7qYGBITHP-tqr2jGJCYK6d8NcdtqF9_JuMQ7vwOoSu160NyI0esL0v7QZd5JiraMC6_NJXxSMzAJOYMrwRcEJLIaihlfwFS4gPRihQ",
+    "model": "deepseek/deepseek-v3.2-speciale-20251201",
+    "object": "response",
+    "created_at": 1778073237.0,
+    "output_text": "Why don't scientists trust atoms? Because they make up everything!",
+    "usage": {
+      "input_tokens": 18,
+      "output_tokens": 400,
+      "total_tokens": 418,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 385
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don't scientists trust atoms? Because they make up everything!"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_kNEego4KO9poPvE0Kdhe207wgPMzYxw131d4XhYZ6d0Xmc_MUviUQhhbdYjYvChJUX4cr_TVfcrK6o38EYYtaXlpaEO8co8yfSaArySz0kZWRf4RhvgGUMvzS0QcZJyuZaeH2G1Axmw-mGy0Z_WAEY-zZYsKvaiU9bGZsMuXdWunvFZ2SfzbkFcdesWHSVS2iPPSiQaBrmLmqI06WQCjw2uML7njM2wmdtUCzxoEKJIZOVe6WEJSQnMHfciqiDpKs-6y4SNKL0pQSDoYdlgTCTQ6BCsVakm_gEXtJ3uwpfr8z5IKFqsqUFf4BLadcrKepttgQaVUTIFoZKjP66PgAMoDupxgd9wxOHblrvG9ooUfb-lbX6VmyIVwNz79xVE2nlsGlwjUj85I4TDVHjB_evsLZoHVm7WEKITS",
+    "model": "deepseek/deepseek-v3.2-speciale-20251201",
+    "object": "response",
+    "created_at": 1778073254.0,
+    "output_text": "[{\"type\": \"text\", \"text\": \"The joke plays on the double meaning of \\\"make up.\\\" Atoms are the fundamental building blocks of matter, so they literally compose or \\\"make up\\\" everything. However, \\\"make up\\\" can also mean to invent or fabricate, as in telling a lie. So scientists don't trust atoms because they \\\"make up everything\\\" — implying they lie about everything. It's a pun! Did you find it funny, or would you like another joke?\"}]",
+    "usage": {
+      "input_tokens": 57,
+      "output_tokens": 750,
+      "total_tokens": 807,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 644
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "[{\"type\": \"text\", \"text\": \"The joke plays on the double meaning of \\\"make up.\\\" Atoms are the fundamental building blocks of matter, so they literally compose or \\\"make up\\\" everything. However, \\\"make up\\\" can also mean to invent or fabricate, as in telling a lie. So scientists don't trust atoms because they \\\"make up everything\\\" — implying they lie about everything. It's a pun! Did you find it funny, or would you like another joke?\"}]"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "model": "anthropic/claude-opus-4.7",
+  "timestamp": "20260506_161248",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_YhxJie9-fIFYsHjqxkNhDXGvf7Elmxs2TXwNBosqyI6YCL9IRXeKp5tzzYOSpqHTtgct2RP2ZiQFmXIqJcwp7G81k9SRvxZlQ3n6bo8SHLtlifN0GIzC7Ep2IfPlGvRcHuFtSQFgDbAv_JWrTHVHr_0HzUWG8EY3GvB7trQ3fjWER7318PSfOVwotbDfNmAVyMJL-_pNQGj8mI4uMwV99Pnyumaw8jzzV1AO31-0LNoW4GTL3SAYYsuvLwccaipGZMeLwjQ019gvhAgVHJ5JrImnYrh3juiZ2J6LBcwqA5-ql0f_268lgJK820Z3jevWzeeRWGC66OvM8ydGU-YoVJy5eLUERHYzwzA4R1Ay53ynJpAJZt57TgFu65Xw2TpqWo6-5Pqd5arYTR--w8CQ4XkAYUZvt7VnaiWA",
+    "model": "anthropic/claude-opus-4.7",
+    "object": "response",
+    "created_at": 1778073165.0,
+    "output_text": "Why don't scientists trust atoms?\n\nBecause they make up everything! 😄",
+    "usage": {
+      "input_tokens": 24,
+      "output_tokens": 29,
+      "total_tokens": 53,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don't scientists trust atoms?\n\nBecause they make up everything! 😄"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_fLZKq-jIEGB3k88tOP5H26ddxm6U42NQ9ZVHwwBrJIeNxiXw_6_UWv79GqBQBUsTa49oq8p8HA-AjJC6gASr0k1uVtTaeNMEgmk-AITBR9YLJP7Pp0_Ujs3yvYG7zARmWR04Zqv1RAE5WjZ-_7ircFojR2ZR4yE27eTzaP3PDUhDXAFCFoEAJgg6V67yzfoRMJMhnElAXzsNDtPN3iLbjMIcosIY2kZgk_-J-2kGqQOhFEdDsv_ZTqaXKu_7fxfRxwp81ozV7BrMR0mS1edc04UlLRvLfrez2KyDuL4ywaSBa9nwWDMgJ_pyG5UTJA4PHJKc37p54RUpL0M7ImR9LUZzraBvbf__mzb4PHOshtF8sOoDmLfudw2n-uCeai5lKVEP9JHsL32HkOd9J5_nkeVU4C-SQ5ZCf4rW",
+    "model": "anthropic/claude-opus-4.7",
+    "object": "response",
+    "created_at": 1778073168.0,
+    "output_text": "The joke was about **atoms**! 😄\n\nThe punchline played on a double meaning of \"make up\":\n1. Atoms literally *make up* (compose) everything in the universe.\n2. To \"make things up\" means to lie or invent stories.\n\nSo the joke suggests scientists can't trust atoms because they're constantly \"making things up\"—a fun little pun! Want to hear another one?",
+    "usage": {
+      "input_tokens": 74,
+      "output_tokens": 123,
+      "total_tokens": 197,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about **atoms**! 😄\n\nThe punchline played on a double meaning of \"make up\":\n1. Atoms literally *make up* (compose) everything in the universe.\n2. To \"make things up\" means to lie or invent stories.\n\nSo the joke suggests scientists can't trust atoms because they're constantly \"making things up\"—a fun little pun! Want to hear another one?"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

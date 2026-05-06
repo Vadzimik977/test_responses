@@ -1,0 +1,68 @@
+{
+  "model": "qwen/qwen3-max-thinking",
+  "timestamp": "20260506_161128",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_1gYVP-b3kEYzginkyM5tgGtPjKAuV8HGM9DUpTGJGr5wVxEk5GhnEJr3crQoezKUpIeI1lPKnMqPU_dpMkl5ajzCOyvIAPcVwCnD2AGJWUrqEkIQ6JXsxC27_-nOh1X1kJfE3GXfmNT_tv3jyWYLiVHuFny66B2Lif5jekd90GuDOMf5MgWzG2Psg6Qtw9sjz590uUSZcVUU_WkrgSMF9Jbba6IMNkPKuD4BRJrxKrULtrE_UqjPOvDnzctJPYM4P4UZjsBmgEaCoV7fiszoWBv_mYEz6F4EZKMIASkhG_N9yDzsx_Kf53djl7o8tcXEGxcH91SRvI_j0X3ProshFdPAKnuRtRtgpM1gHwUQ3vbUoiweeE9AUnzfUdet6d6la5aGyC8Oz3CB5LdVrWuwK27890KeBChZ3afYeNg8cA==",
+    "model": "qwen3-max-2026-01-23",
+    "object": "response",
+    "created_at": 1778073083.0,
+    "output_text": "Sure! Here's a quick one for you:\n\nWhy don't skeletons fight each other?\n\nBecause they don’t have the guts! 😄",
+    "usage": {
+      "input_tokens": 52,
+      "output_tokens": 28,
+      "total_tokens": 80,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Sure! Here's a quick one for you:\n\nWhy don't skeletons fight each other?\n\nBecause they don’t have the guts! 😄"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_zfmfEAV59M3Ej9h94hFxRxhrUzZ1y_qx9Lawzap6-cwNRUFEPHSU3AVgGo1KuVFy6aQK22ffFqsef31bKE4uSdmmBj0ChFp8Re3mnL40oS42vFhbxGmUJB-dO8EX_P4rQnr5rAT2TFzt86kj7oFNyLU4xCTF7h0TwS3kZBcF9QmWM6vkpbnpzHSjNVlqugg1ttltoSiTvwyQqCEW9FoBt0PP1C0dlewXLJ6zAEXHFZhe1_21uziuLFh62r115JTR56Zu78Uw-0OxAl70IWyuZsL5DQwSe11Cv1QpEoZbOQtMw9abbq7BzrHFzbAl3Dcj5m0Y2javwHE9fUBzros_hh14Rhs4oaOgbGb-A7oIZch6xHevX3y5W-1f3Wdr-4DdYRU1UhiBddFrBOxFi0CmSMClXWxyZFMgNsE7j3K_OQ==",
+    "model": "qwen3-max-2026-01-23",
+    "object": "response",
+    "created_at": 1778073085.0,
+    "output_text": "The joke was about **skeletons**—specifically, why they don’t fight each other. The punchline was:  \n*\"Because they don’t have the guts!\"*  \n\nIt’s a playful pun, since skeletons literally don’t have internal organs (like guts), and “not having the guts” also means lacking courage. 😊\n\nWant to hear another?",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 76,
+      "total_tokens": 176,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about **skeletons**—specifically, why they don’t fight each other. The punchline was:  \n*\"Because they don’t have the guts!\"*  \n\nIt’s a playful pun, since skeletons literally don’t have internal organs (like guts), and “not having the guts” also means lacking courage. 😊\n\nWant to hear another?"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "model": "moonshotai/kimi-k2-0905",
+  "timestamp": "20260506_160819",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_ILyuU6Ft_LIdngQecP4O0MeW_IFLaAbuUAiCuFJ6jet1Y3Z8PXwglnYVMCP1rcv8yhFM129UncTn0argx40bB9xFIpynxQ0HbXJt_5zEXRqqVyUj557w4JiygRsGtThhvq-lKq2VkDXC362AWL7-NVF5KPr52mohFGyKMBE0nnweHWytbJaZmTC1YvQ4K8QsSJm1-ze0OfP7swqtXu9Q3v4AJMqYNvyoajyK8UnDP0VSn80hgO-OhXm8GpKOkSn2_4GLZ_NWiwNo5jPV2Np9uvHov_0zY_Mi-fABZj-pt203UGl5xKBv79a2WMa9hoXJ_vJudKverJH7vwdvE7TXZvuu5hyULLv7PcLM_SzA5HstMshPbJ42XmP2fPNxKP1wMzfhJvsqjERh8fpv7G6Z1j48Gbn0xOyqBG0L",
+    "model": "moonshotai/kimi-k2-0905",
+    "object": "response",
+    "created_at": 1778072896.0,
+    "output_text": "Why don’t scientists trust atoms?\n\nBecause they make up everything!",
+    "usage": {
+      "input_tokens": 15,
+      "output_tokens": 14,
+      "total_tokens": 29,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don’t scientists trust atoms?\n\nBecause they make up everything!"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_3qBH8Jba62xp_rOswV-O42QEV--_4Sqyw7pfTBZw8Iyx2RnB66doND-B_KsyB2JDswbJUwgCISdXQJGcJTG7iCwWeVD9Um-VX5IbUDRYGrV3w-jNn66dycx-66mjqSwMXi4NFvnbex-mWX-kMZX13YvESQQOiDqDkr581V06qCmY0VnHPTtGlt8Vrqan5oUg5BffunclboUPgx4PSwZlP0KftOnCChXsEO8KSbS-Y3bCiFW_mR1yzgKdwNtk-Zb9Jq1JStz0_iyCQHaTHvZty77OikUVq9quBqgJ7TegXV8yT6gwqvN3tqhDlxDsqvRQEe0yhNfUgDpPUn-8HXARBxJXdahRqbBQfPb7-iLNTP4nGDJ6SmpWVG_9raN0-djMEkf0Ll4ULczG6w6XHxnrbffc1CXn7tVuxp-R",
+    "model": "moonshotai/kimi-k2-0905",
+    "object": "response",
+    "created_at": 1778072898.0,
+    "output_text": "The joke plays on the double meaning of “make up.”  \nAtoms literally “make up” (compose) all matter, but “make up” can also mean “invent” or “lie.” So the gag pretends atoms are little fibbers who can’t be trusted because they “make up everything.”",
+    "usage": {
+      "input_tokens": 65,
+      "output_tokens": 64,
+      "total_tokens": 129,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke plays on the double meaning of “make up.”  \nAtoms literally “make up” (compose) all matter, but “make up” can also mean “invent” or “lie.” So the gag pretends atoms are little fibbers who can’t be trusted because they “make up everything.”"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

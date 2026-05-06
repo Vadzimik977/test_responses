@@ -1,0 +1,48 @@
+{
+  "model": "qwen/qwen3.6-plus",
+  "timestamp": "20260506_161525",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_ZDRloASVAeyQF8v1oN7sgFgvNNveJRdJabnY1-d8ykC08PnmmaeUpBCfh3UT6qgyoCWMJ_wWMKppphd-Q2X3uuVDece-pN3U2MgggVUCtInOacNa88bQKSaplstiO_OFkulSPcpDkpOAazgOI0re1YOeReyEUJ8cg47BsrWZoTvWpuZ6SkuMdAGj9OqnfdMl-GVq9-VEoSxj7GhssMhSwn8bZ0NYATc2113_yI7ZIb2kzL2O9TCMrdnLNXcDCknCpV7p7PtbQIx1BtqxAKw6p3vxY0cyzVQBDEINAkWvXGMZ-hjSnjVXMJQKkY7tDGEiV-HkYAyeigEp8L2VZOoGOVE_gbX6yK2QICK-6_MEfy-YnjOcI0cZSulD84ff9cZH91V3Cz9-OcB3kN5KSPtDIgVaQNA-xW3rfLqX82AErg==",
+    "model": "qwen3.6-plus",
+    "object": "response",
+    "created_at": 1778073293.0,
+    "output_text": "Hello! Why don't scientists trust atoms? Because they make up everything! 😄",
+    "usage": {
+      "input_tokens": 54,
+      "output_tokens": 454,
+      "total_tokens": 508,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 432
+      }
+    },
+    "output": []
+  },
+  "turn_2": {
+    "id": "resp_OopT4oQFgIz3JARSfaOqW_VHJvBEQiLUtMPciMXwM_R3KGVzO84Wi_lPmiGySlFaBvjU_7yQg--LkRrWWdI2LBVodUXtnZ3pJk8WgRD-IXzQp2Z6kfIqmJsJOUwUW_yhX9KBqBBE1wnNx9YwJ_sZEYXikea4FYgPGALnXXaHLqeU5xM1veWOTrqyj2TsfqInaNWXSbIZvUvYikTdnZwQtQHhNdpIJqu3yAW-T4ddeEceDLSiTK3M6MLY_B5Wa0cJopw5yUp_iYcKbghKuXl7lMl3J6iMC2xsNcjhNEqghN7cCbZL2pL_vILyIWVNWTzb8ycaz9d-iUXm6MEZFynUe2jxHYLXdLBFjjFOVbsx80_yDMGXfS4AWz8YGQoGi3OnIKDtrLvvN-Sw7MVR7wLgjeH87A5y-KfCAFQERhIB2g==",
+    "model": "qwen3.6-plus",
+    "object": "response",
+    "created_at": 1778073313.0,
+    "output_text": "The joke is a play on words with the phrase **\"make up.\"** \n\n* **Scientifically**, atoms literally *make up* (or compose) all matter in the physical world. Everything you can see and touch is built from them.\n* **In everyday language**, if someone *\"makes up\"* a story, it means they're fabricating or lying about it.\n\nSo the joke pretends scientists don't trust atoms because they're constantly *\"making everything up\"*... which is funny because it's actually just how the universe works! 😄",
+    "usage": {
+      "input_tokens": 91,
+      "output_tokens": 599,
+      "total_tokens": 690,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 481
+      }
+    },
+    "output": []
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

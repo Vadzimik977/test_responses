@@ -1,0 +1,68 @@
+{
+  "model": "openai/gpt-5.3-codex",
+  "timestamp": "20260506_161620",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_BCyZzbA_38DACA-ZojHaNl3vA-mz5AUSo7KAwWmKRGVrdKfJ6gs8MHQFHYWu-4REYYM0Zia1AIqKT2sHcpe68ufWLAQa7B23tZ29ghw2vaqMPcVOzoruEOoX1Y161tlodUBTgxw88nMN9ldXnfEvv_TO1fEboJsFujR5CJIy8MsNse9hHnErmePK_aQgRp--vZqCa-uJh9ymzClyf1VhH4dNmHRRtf9moQifXU1o3F9Xd83mvjE378iiV8mvQ8gaWCzzqjB25gd0KYoVY8DfeM_KjNerV-bN0lTj68E6xBrqTBG9SFZ4jF_8tZ2RJVJO9dMmxYRWwK8qoJnk2fjUrRmH4TCe2rJwfTt98YI63FEFG3s5WNzbZTw2xa0hC8uTRnyzZsNJ2DaswBWX5MnAjbI_FhIaD4D1NsHppSzvY1Akxb8_DrkEnM03vi-xo0Jet4hr",
+    "model": "gpt-5.3-codex",
+    "object": "response",
+    "created_at": 1778073377.0,
+    "output_text": "Sure 😄\n\nWhy don’t skeletons fight each other?  \nBecause they don’t have the guts.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 26,
+      "total_tokens": 40,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Sure 😄\n\nWhy don’t skeletons fight each other?  \nBecause they don’t have the guts."
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_D5VHCZ-8FU6ryUeBCXQmXj2wrp1USTQKbMxy0SbvBWmAU0OmK5iRJBirn9-xSj3QR8elCLfld_TYEI7ZwZmcJ_wyJHUZCO-9bxYuplCjhHXB8DiOKMkQ_2dpe17b0bIbvw_oJV7XFyfwaTZ9yfsen_aZUg9SZJuVfUjmdtDkIYKLgu-b_s1IWv6zabdGhd_Xg1nIWSYNBmV-nwBmNipwSx62M1nnw1U8i-Obs9DDMijtZvHAFngRY0IPvGYTVc9omT3aBNQNFYT02WfAw0Kv5aAuV8PxgBx43I6-kzbpwkPSQzAXlkhh9GXpE-YMOgxbEU89JguPay43LZjrJ3D_bbbioXbwJ5-Tl--kLL-LsGIETjTrtDwEqaDJBhWLaq8MshmYPu6eVBrEbxU2QfwgQB6FSyxsq-CHJOflk59s9rDR5158TnPF3XaB2K57FHR5M_j9",
+    "model": "gpt-5.3-codex",
+    "object": "response",
+    "created_at": 1778073378.0,
+    "output_text": "It was a pun about **skeletons**:  \n“Why don’t skeletons fight each other? Because they don’t have the guts.”\n\nThe humor comes from “guts” meaning both **courage** and literal **internal organs**—which skeletons don’t have.",
+    "usage": {
+      "input_tokens": 56,
+      "output_tokens": 62,
+      "total_tokens": 118,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "It was a pun about **skeletons**:  \n“Why don’t skeletons fight each other? Because they don’t have the guts.”\n\nThe humor comes from “guts” meaning both **courage** and literal **internal organs**—which skeletons don’t have."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": false
+  }
+}

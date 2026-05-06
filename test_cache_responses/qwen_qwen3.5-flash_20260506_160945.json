@@ -1,0 +1,48 @@
+{
+  "model": "qwen/qwen3.5-flash",
+  "timestamp": "20260506_160945",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_172Jamd8rda478jAmW0vDc0qQ8LTpxi2gngPYPU8pU1NcQDQKXxSJOmCSOg87cQ1cX4HnQiW2yk_qso_h1yLGhx0rwtTx-gITU9Cdagfn8L2zZqYMTaLXUDZEz1wHqM0n00n6ojwlXWgs-sPgvxGBloT1YIETApGFMAmPE4lJ_hS3jtyGCIslD1ygXyCwN5RIPN4SlPgfUkIc9J8c9gdn6vRSsEVIpCnxKkCdN3Igtj2SSX16VAFux-bdht5CTMWCg5ZZmpahq8LONZUqayr5UFX7Ceh36Rq-X5RabBsUiWUhi-bD6k2dTjuayrKOD-HMmnHLOTaNI2rB1FjSRgHTYA_4uoEgGmZ0IThu0dA7akkBMm3mQKNd59JYjiMQ1sB1upgzmNK-lvz3YgSJHUqqU4ekvxV3KlJ5NrtQfZ2Vg==",
+    "model": "qwen3.5-flash",
+    "object": "response",
+    "created_at": 1778072971.0,
+    "output_text": "Hello! Here's a short one for you:\n\nWhat do you call a bear with no teeth?\n\nA gummy bear! 🐻",
+    "usage": {
+      "input_tokens": 54,
+      "output_tokens": 743,
+      "total_tokens": 797,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 708
+      }
+    },
+    "output": []
+  },
+  "turn_2": {
+    "id": "resp_92KtFsHKeJgXWDN7i2ONXao72Fj6bO89PkNj36nWNobM_ms15b9Vo9UVq2sjgoTIAoYb614oiXSJwLgsyEckWODlLbyE7JbfBayfDfc2qbjJUVUEfxRSU-ProsbLr860EMDugbPz7EuE-q001m5lh9in1t-RppTyXmVa5FD_YjxIAAuS_sOu9165j8RZF9d4T_P7dT2OtUlxL6hbvezLbPJa-TGWxQmAz1ktvKE5QSyX-IPy6-gmPK7gEyGDMD3wEcAEHR-fz2UuqXiJl5HyqKjaGLHNxMxsS01zDgWtfi5xPPLqzXyLPitI6OolnDlc50m7ZJ_epJPR_GRCJCFhSssX1kLsCaW3uI4g0gBkSCrrUZKwm-LA3AVpxxymyKca0sjcrb7QGHq6DzKaqArwM_L1B34o4frBpmEGibMe8w==",
+    "model": "qwen3.5-flash",
+    "object": "response",
+    "created_at": 1778072978.0,
+    "output_text": "It was a play on words involving candy! 🐻🍬\n\nA \"gummy bear\" is a type of soft, chewy bear-shaped snack made of gelatin. Since candy isn't alive, they certainly don't have any teeth. The joke connects that image of a toothless bear to the sweet treat instead of a dental issue.\n\nDid that one make you chuckle, or would you like to try another?",
+    "usage": {
+      "input_tokens": 104,
+      "output_tokens": 687,
+      "total_tokens": 791,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 593
+      }
+    },
+    "output": []
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

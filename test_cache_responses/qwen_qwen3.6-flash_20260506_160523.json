@@ -1,0 +1,48 @@
+{
+  "model": "qwen/qwen3.6-flash",
+  "timestamp": "20260506_160523",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_Gq9Obh1AXoIaT-qc_LK8TBGgCVPZpBxvkYxHLMS4B_r7lSvvqrgK8B_DzqVCPyFs4K6wyQ2XGxXfEvfzbvOy3sYerHFsq6d0fsOIU1ej8iqxAKfI1cbN-AHsj7ZZAIHKLRUXHA_BN03RTIloUN8xevjG8yhiQO8Fbmahzx-ns0h7Tly7AFxs9gxGUgKNxTJ1ET2QUvbu9kPcvqlfN_IyDKfzqwYA9718EFAgF0PANzTlaVmNlnJJkwSjKYV-_EunLc7v8p0NuEM9pjn08H8iaSG-ituO4c85duKICN7VodbpzWyGpurTUXpAakphZiC1h_GxqIR0hftDFtOh4sBmwZFMZLkjJmp9-EXAZwnMWHo-xwvvCJZp3kiV8dIVXeJYhKg1gDy3gN7vamqzwMkLNd3Y4Jy9P5TExaMeBkhzwg==",
+    "model": "qwen3.6-flash",
+    "object": "response",
+    "created_at": 1778072715.0,
+    "output_text": "Hello! Here's a short one for you:\n\nWhy did the scarecrow win an award?  \nBecause he was outstanding in his field! 🌾😄",
+    "usage": {
+      "input_tokens": 54,
+      "output_tokens": 473,
+      "total_tokens": 527,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 434
+      }
+    },
+    "output": []
+  },
+  "turn_2": {
+    "id": "resp_xN6OWT8PmZq7CqEziqKv3VxHSVc86IZUpRoRrKCIkSMG6HJfTN2zr2fiG067vqQIDwY8oX3jYbyxuqFTcpXTSFEop8GAwoFKrQhjOgLRudl_vQzOetINj6rXuPzIOWQKwNPattty5___9rZ5V4VEjEQxuYR_gfAIls_DlQAlG636jObjoQiOqLKVLPq9lwmvMq2raTKlUm2cWU8QXUC6S6xLZVxpCFdGQl9mt_7S9iWjlaRQuPpODJseW2RrOp5zFoFGDXRgbw2gRK1whbk39nJZzlC0Gxs1u8xcwQUOTrXLPoZ8TCM0EetdLnVPhN913LRGu-onCBQ2pp97stqupTeFD71TbmttGYaX3kCnupxLxlsQH1-imAXZ6TXgVpq4Ch45nBDZTEvzkshayBZHh8rprCG00IFhOH5AocO-Hw==",
+    "model": "qwen3.6-flash",
+    "object": "response",
+    "created_at": 1778072719.0,
+    "output_text": "It’s a classic pun that plays on a double meaning! \n\n**Literally**, a scarecrow is designed to stand tall and stay put in an agricultural field. \n**Figuratively**, the phrase \"outstanding in your field\" means someone is highly skilled or excels at their job. \n\nSo the punchline cleverly ties both meanings together: he won the award because he literally stood in a field, and also because he was \"excellent\" at being a scarecrow! \n\nWant to keep joking around, or is there something else you'd like to chat about? 😄",
+    "usage": {
+      "input_tokens": 108,
+      "output_tokens": 560,
+      "total_tokens": 668,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 435
+      }
+    },
+    "output": []
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": false
+  }
+}

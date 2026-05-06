@@ -1,0 +1,68 @@
+{
+  "model": "openai/gpt-5-chat",
+  "timestamp": "20260506_160732",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_naRLvIsujIx3aqGPW56MxF8n69hJmmc4h7lm2RIUAnOuC2Hu-ef5c4C_DkDgZiAZnVZqObvh0bVwMxHr_80XXzWc8Fb_O8h7pIhh8wJpB6dvmcdYvdNFyiQoZV7XUNMYAqgimrHRA8jW0-1R_Zh9h8C6CaVbHKNsB_SJeGeGSooQZ7QHBxqe9o9kVHWBKR3C228OtZP8uLKeFl9txPHcyevTl2XIRnrQNeUBR-FEaUkcRmIXBfnL7QjFa3yt34BjULF3mb3VtumLdmXbsP3cdnPZn_7rG9-2n_ns_oGjpbmTLldiTVpFW8U7sc-v4sWVcdNsPMI3UPt7K1d-zmOlC5H9OJV-bwfGGqsgpvTkE3xogQnVYRZCFqFpBFXdEWK_FIRS4ktV2HrSMoGIHO3_c03nJ2YkIJgEXE5Z9np5ib0GQ0XTISb1gN2EfrelAHbYE6o4",
+    "model": "gpt-5-chat",
+    "object": "response",
+    "created_at": 1778072848.0,
+    "output_text": "Sure! How about this one:  \n\nWhy did the scarecrow win an award?  \nBecause he was outstanding in his field! 🌾😄",
+    "usage": {
+      "input_tokens": 15,
+      "output_tokens": 31,
+      "total_tokens": 46,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Sure! How about this one:  \n\nWhy did the scarecrow win an award?  \nBecause he was outstanding in his field! 🌾😄"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_oYFEz_8SYYVewX2SYUxqxaRHg5easu1V4Oz-6BIq9VdnOUHQiWBKTxH_jpVnvI-L4TUrwIBLiPiidqDdXsgIZuTyUfG9OWQxf15lOb7V1d4karigryBF9a-vVckPuSMeZwnH8jC4lPVMrEpN8MknOL9s_iQW4AUOtv68Jq8DhBUUtnJsaDPVY3BC1llj4l8P56e4Y_rt9fVdKFGqzXivrJEmYlc17E64hMhuaUYFMe24v7fUp0DlxgjwmUChkqDPSl7vlN1GU9ZllubX6NaoFrwkOJJe8qNwk9l2LwUtNu16tRpuKhF3mVoQfV3XhvKVF87QTlKbCwscYLaZH20qWYsSFuKkarHCPUE8XXeHbdlnhNT8dSGCbxI2xGKvN8_wd0xIUF5hqXRgV6h2hzXVA-E9iTEGd1Od7WKMA8cW8Y2IO5bk4zOq7IrNYK8wNYYd07Sc",
+    "model": "gpt-5-chat",
+    "object": "response",
+    "created_at": 1778072850.0,
+    "output_text": "The joke was about a scarecrow — the figure farmers put in fields to chase away birds. The humor comes from the wordplay on “outstanding in his field.” Literally, a scarecrow *stands out* in a field, but the phrase also means someone’s exceptionally good at what they do. So the scarecrow is both *literally* and *figuratively* “outstanding.”  \n\nWould you like me to explain how jokes like that work or tell you another one?",
+    "usage": {
+      "input_tokens": 63,
+      "output_tokens": 99,
+      "total_tokens": 162,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about a scarecrow — the figure farmers put in fields to chase away birds. The humor comes from the wordplay on “outstanding in his field.” Literally, a scarecrow *stands out* in a field, but the phrase also means someone’s exceptionally good at what they do. So the scarecrow is both *literally* and *figuratively* “outstanding.”  \n\nWould you like me to explain how jokes like that work or tell you another one?"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

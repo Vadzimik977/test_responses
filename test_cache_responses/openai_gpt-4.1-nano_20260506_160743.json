@@ -1,0 +1,68 @@
+{
+  "model": "openai/gpt-4.1-nano",
+  "timestamp": "20260506_160743",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_8jBhC1G5YvgZLBnHrrPLGsDEs90yXrpL-5dijqD2qnXxKldU_UIJ109lJ-sEt2zzI_g5FG5guGitp53OA25SWgmoKbSlzX9JdvpBOaLUQL9rMXMr5P8qtGFw-gFBEOoEaiGdvcJ1e3bYMWGge5bOs_NsQJIIjonbuqyJUckC7hKCOYxIzwVBbdwhDVRG0pPJPmD6aMNRXq01qo5kgevgyQFkZbA2vqXdkWVflSIcam1L9ZWRwsXch70KfyvJKBw4paVwOoXX4XILr98wxLbYr8C02ANm9fnFtcsehWeC5fB_Z8axvVNFg-CXqQD0xdQ9ZPPX9fP1EMu04FeqPJOVP3uD3NCsSjnHj9VPhFdUlXiDDrI_OTahG8a79cittrEt1Of3KlfATY1TcfA6wiXPB_ng5xqShD06lV0vsTHaT-YJsqL8A-aElYQzsTDY_tXxsZtU",
+    "model": "gpt-4.1-nano",
+    "object": "response",
+    "created_at": 1778072858.0,
+    "output_text": "Sure! Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "usage": {
+      "input_tokens": 15,
+      "output_tokens": 20,
+      "total_tokens": 35,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Sure! Why did the scarecrow win an award? Because he was outstanding in his field!"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_3Wv8NIZC26RJAAdYWhCBr02YlZccmM4rOejkKpnwWQpTW8AoHGN40bqWS5WoXVTFZF5xhYrhtUFxRaOzzo8Ms_Sgme6jP41HJn5S3Cbtm8_nAnvuL9Jm6IRoV2V339WBFvSLm02orGvu40aRdx_7OSoIndwUvUOAGBl8x7vwytMPmVN2wqd01rfwBFHWHY9XnEK9cyTLRFuA3KU3vWEGEgkkq0QR0Xmk_fmerbFiP5k7ghI7yX2CNyS4n5F9NSIYdpe7BfwFAP4XfRSLFrnCaxd86351LoLd1IBYHflkAgu76ctysqFmSaihvL0qDtNtqRS656hVZQb01wXdt3ETHRBujmtvmRAWSJe7Z3ABELBZQgrJZljxRA94_kQ2ZOpUv5mOhicD9FNUgl7NMtcjRrXRL6_gsx0WMRsuyHd5OBa2FieyDRAdVzJyyC4IcYcd5g-z",
+    "model": "gpt-4.1-nano",
+    "object": "response",
+    "created_at": 1778072862.0,
+    "output_text": "The joke was about a scarecrow being \"outstanding in his field,\" which is a play on words. Normally, \"outstanding in his field\" means someone excels in their profession, but here it humorously refers to a scarecrow standing out in a crop field, literally being \"out standing\" in the field.",
+    "usage": {
+      "input_tokens": 52,
+      "output_tokens": 66,
+      "total_tokens": 118,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about a scarecrow being \"outstanding in his field,\" which is a play on words. Normally, \"outstanding in his field\" means someone excels in their profession, but here it humorously refers to a scarecrow standing out in a crop field, literally being \"out standing\" in the field."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

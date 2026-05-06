@@ -1,0 +1,68 @@
+{
+  "model": "openai/gpt-5.2",
+  "timestamp": "20260506_161022",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_xDxC-icv82FEM0yVSHIkiDaMk-AcynXH1bq3oLlM8xwt1L1Ft0IBLMFhIcLGwrKncA9YSvkI8vLPDRX9VbVXmV5DtSj4bArsNKhNAkpTg0jsG2tZV4ZQHDGqV4d7VM4TfHsq6r4ZGNgdg5ejMCOxGkdgUSY45ww5VzSGX6vJU57wXZcnrL4tzXPZN5_enUNEHZEFdi9AwHrzsGBU09eujE7OE9HeD5wzt1aBDdm5zgw0NgQEN5_pvOgta10FR6Hj2XIGqFm_AOmMXwv26i4MXhI8A8JkwCx6MuDPf6wgorpMaVg0aD6Ms_2zdJ1Et2GeHEHWIasg2qnE_d2El3id_apIENjkxgx-vO0siFHx2NLmNq35zYLQ2QtRPktaBBZzV7puG4RlMGr6PboCCkNKHeToUDXnBsnp5Pd68E_a8Dw62DoVnNQX1hPTtwHvpbAqQIFh",
+    "model": "gpt-5.2",
+    "object": "response",
+    "created_at": 1778073020.0,
+    "output_text": "Why don’t scientists trust atoms? Because they make up everything.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 17,
+      "total_tokens": 31,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don’t scientists trust atoms? Because they make up everything."
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_rSSGTv4sejs2MlVx5qlRIJjQ1DDn9RjMyY6oMTxRk1Z5xVpFgRP5aNWRofcmzT98EExBEsqvjLkTfnLqNQagLDRFeVaH4MBVo99m2uNEcIk6141gktfdKhRwwwcxSoxkxmSMbaaStrGtUSsJrxiAMr7125E4wg5Ke3lIlE95W87PKNZ3IzP585MDnB-Jd9J_sgkQyDtyBJq6_Q0-CYSUH5Y8URUXUhhNSQbajJOKjQ5hgAs9p82hTToZgSSrnOz4paq4gYVy0bWHwV91MzJ01tScbUC6bihMLFDxUrRYbEG_VS7_xspjk-vsG8PH42oMmH-qWrlzr0mXY9GZ5gbjw4gDG4sg_U4IBGlWXFupSRsPIF71MjKygyJATg8_g0CCid3sW4MM3qQAe_mq6XHKE-FH825RdOQCVlTLlDg190dlaR9weWtFZMw3Zxh1H8-hlVOz",
+    "model": "gpt-5.2",
+    "object": "response",
+    "created_at": 1778073021.0,
+    "output_text": "It was a pun about atoms: in science, atoms “make up” everything physically, and in everyday speech “make up” can mean “invent” or “lie,” so the joke pretends atoms can’t be trusted because they “make up” everything.",
+    "usage": {
+      "input_tokens": 47,
+      "output_tokens": 57,
+      "total_tokens": 104,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "It was a pun about atoms: in science, atoms “make up” everything physically, and in everyday speech “make up” can mean “invent” or “lie,” so the joke pretends atoms can’t be trusted because they “make up” everything."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

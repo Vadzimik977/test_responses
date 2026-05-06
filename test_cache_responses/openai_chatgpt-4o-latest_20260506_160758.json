@@ -1,0 +1,68 @@
+{
+  "model": "openai/chatgpt-4o-latest",
+  "timestamp": "20260506_160758",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_mrZFnn2SmMrqZa3SCSc0qJNMI0za4RLeKRgbL-Sg5x4Ss1FwQs2Ul4cW5GT7qrOWFM1gp_gs4vO-yIHYweH_QcEeuwYVI4okut3dRTRnt8mfF_HZUnehomeMWLkE0DKdzpWDgIgS6-nlD9NAOK__jwloeGz-S-K9MzRjpOoD79eW1x7qlrckgRuPJ9oCgmEfEfOXjPpRD14Mvpp-pMwNsCwaWSmutBOxrydHDSHvS1f6fXugxuUl5Qn0w_eSbLIMqHJM1Zi0shJ2XamiYaV1-NOhgADxPUwZ_fzSq3_NY4eEZ-pEJMDGpC2UShQvoOghQgszED9S2DR2mkKaQwlbWgeP36vYxKbMZOCJqUrh_4vtQFPQnPMQLKz3mTWu5qf7y3LBVUaYZKzRKsd9ZgyYoFxI_A1OUTTkHMC1KJEbyHG2hgAG-cwzN5Nsn762DjstwMzi",
+    "model": "gpt-4o",
+    "object": "response",
+    "created_at": 1778072870.0,
+    "output_text": "Sure! Here you go:\n\nWhy don’t skeletons fight each other?\n\nBecause they don’t have the guts! 😄",
+    "usage": {
+      "input_tokens": 15,
+      "output_tokens": 26,
+      "total_tokens": 41,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Sure! Here you go:\n\nWhy don’t skeletons fight each other?\n\nBecause they don’t have the guts! 😄"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_F3U5wlEcj2J5bLVvoJXlDIo5fRgV3ofhFL7X6QdEB-p6aXtCwZSmPHPz09CAGy4x_xXj9wgC_L5vsP1G6RAVp-9toYpzG-tRtqhifXMc3dQPg-pyjTBYNp-c2YhiaUa8Ouq45CHpifdSjEUuZlzlPrH5AAfhSof7DOtXIdL5yt8tM4w5yjN7u_Nq1aTt9dPFvMDPijvadEzlMsQDhOb6EWz0KzTEvSvVC0JAJLLo_j9doK0xHardmF7361Ao1zIjEraAxQPUpwF1nd4J4eXKTlpRAKxHyeLppZTCjbhowXiXxRUxjEQ557myP8cTWXiDwy9leAFUd1qsFUg8ltXofdbN9xtMjaVaNcklBl1e90i-0dh1pMSXsCTVtquKmAbzsmaXk3DMryZiSpOAXs0woem9mj1n52T3gMvbPPh5IgevfrSQUX2PLJdoIX4eI9TjHIEo",
+    "model": "gpt-4o",
+    "object": "response",
+    "created_at": 1778072874.0,
+    "output_text": "The joke was about skeletons! It played on the fact that skeletons, being just bones, don’t have any \"guts\" (as in, internal organs) to physically fight—plus, \"having guts\" is also a metaphor for being brave. The humor comes from combining those two meanings in a playful way. 😄",
+    "usage": {
+      "input_tokens": 58,
+      "output_tokens": 69,
+      "total_tokens": 127,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about skeletons! It played on the fact that skeletons, being just bones, don’t have any \"guts\" (as in, internal organs) to physically fight—plus, \"having guts\" is also a metaphor for being brave. The humor comes from combining those two meanings in a playful way. 😄"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

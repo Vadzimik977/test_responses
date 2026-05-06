@@ -1,0 +1,68 @@
+{
+  "model": "anthropic/claude-opus-4.5",
+  "timestamp": "20260506_161135",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_B9T7DAblfDN7-DvqevA4r6eWIhNwg3niZnBIkfGpupMOoFmsWm8kJPqglQD02gCplo43o5yyjP2Si0RXJSjm2bGmDFhy_yb9lSzyp8IwLDFPgEyt6p0OrIDNXZF-wjujHiaLWfnkkHqvjJhrNX8Ud53rGAxtaidW3SVxEVkfII-jNAh0o2JIbbcSNpxlfJxRY8KzsHd6VjwwJvLut8PeQ5qRTIUBfsXaaalWMyKmqFXGc0x80tXE3oHQUOR39tdzFoo3EQl96bsgv1pYSd_MVwaTokeelvGWZg_EGKcSCkkWRtLVxrjeCR6b9QHx0Kvz_7M1w3xq8FFELGMUgxwEOmQ1plzxAGyrMjqQIghZhs5PpRGIlg5_Zwg30Je6rpigJ7EMqwzYJcbMTSjA2B5ix49BRQ2Dft0oP6-I",
+    "model": "anthropic/claude-opus-4.5",
+    "object": "response",
+    "created_at": 1778073091.0,
+    "output_text": "Hello! Here's one for you:\n\nWhy don't scientists trust atoms?\n\nBecause they make up everything.",
+    "usage": {
+      "input_tokens": 15,
+      "output_tokens": 26,
+      "total_tokens": 41,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Hello! Here's one for you:\n\nWhy don't scientists trust atoms?\n\nBecause they make up everything."
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_vJwiR-vPAS8Pw5whnlpcl0QXEZsh217YLk8jGotfZl7kKA0HEmn2UKIGIvPOLdmKDpHqlpWD-glAIwK1jRwngoEY0RvZtW_ApWGwitLANPkUwa2z5ydqz6MPnZQ713tf8AGftZughaDxfC0NaJ3gFUq0a2OWWCBl3aevmS0wfSqO7F7cDFKCDJjIkoySmfS_JjHhDxfv48gxHGY-2lz_SjBW9JiTavHbULLXoUciqcuyF02oxiH73Vj_DaT6kaS26y2LASfQq5vkAi_HK3a0Vz83hxESHVLGxg7eA0JFbT4dgDvDrMhlGUONEdN8VqH1-O6a3N1tW8Cs0AerwsHGpf_qf3xOhQaWew-vNL7zuRyGav_bdUtqDHCAVkxMEMZV1sq9VYiMcu4UZmR2VmSzTjj9fdIC4k0IVxU-",
+    "model": "anthropic/claude-opus-4.5",
+    "object": "response",
+    "created_at": 1778073095.0,
+    "output_text": "The joke was about atoms – the tiny particles that are the basic building blocks of all matter. It's a play on words using the double meaning of \"make up\":\n\n1. Atoms literally *make up* (compose) everything in the physical universe\n2. To *make up* something also means to lie or fabricate stories\n\nSo the punchline suggests atoms are untrustworthy because they're always \"making things up\" – a fun little science pun!",
+    "usage": {
+      "input_tokens": 54,
+      "output_tokens": 103,
+      "total_tokens": 157,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about atoms – the tiny particles that are the basic building blocks of all matter. It's a play on words using the double meaning of \"make up\":\n\n1. Atoms literally *make up* (compose) everything in the physical universe\n2. To *make up* something also means to lie or fabricate stories\n\nSo the punchline suggests atoms are untrustworthy because they're always \"making things up\" – a fun little science pun!"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

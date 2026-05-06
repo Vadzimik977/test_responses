@@ -1,0 +1,68 @@
+{
+  "model": "openai/gpt-5.4-nano",
+  "timestamp": "20260506_160815",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_ov1PlXBQ85WfhEnLkGmfUajBPBIckDQmQ573rPzpplBwc_ml5aKbwFhCXZ0B0aYxpVId384_5vBjzhlPnQeF8WscvDIB0XudGdgyh9AP_9B37kMSH5S9DrT58OYQ-8z0zuT_1W47YufdFwxAZOKwvfEj6aqnWg2nkABOZqqGNAc7gb-piU337MfGpqyE0pxpTvLnUHqtOr-b6FRJN5ZEQf6tbP0W3zE_MKoc70L17zgDNY11464IotONGkFewslRcrHvRVbZLMm4Q2oJs6g82DfYTH0vq6-qfSsQEdxbwt6ciM3bpf5SyDduQYLe4ey9MHlZHGhTVnOw_s70IO7YiE72JWhkvcZ55b2X8GqR3BPRYIo1xaKjzFwsYx7siqZ9kq5PRgcJ0m_BXdu_RKENsuib42TskSnfwsDpOMONCUCjxhd60Dt0jr1ZuOBo7DKcuVOv",
+    "model": "gpt-5.4-nano",
+    "object": "response",
+    "created_at": 1778072891.0,
+    "output_text": "Why don’t scientists trust atoms?  \nBecause they make up everything.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 18,
+      "total_tokens": 32,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don’t scientists trust atoms?  \nBecause they make up everything."
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_xYeBTSscUX7jxc-j4LDxBabv08s8wO8u2h0FIQlPbqmfX9muJuk4iIfD9vjK1e_O3okptyKB82eVLcPPDwIPSCW6SIFuzkYXHpXmxZA7lwBGGWlWa5UrsCS2l2LLgqbdM6CLevwwqBYpkuMNyfMs2XyghftDYl2ICWyw5_rG7wtFoEYiIDLDc2ww_apdz_sSJv_2xxvRzMzS6nDYKYWCC-kl-ekEq_Gg8GaHNRLp4pkUi7N_vliQZ9kel5PaMt7DuQCSVJ2T2fnAzFk22qiPdOu4rWdahotpVsIxINflJGTPXDRNMlUFF1c97Tgm6N0QX7UPT7ok3bo9FRFjNGe8BaSDPGOAMVSeh0U0Scr_N6QK50lPs7JPX8WI6fJhM5kSHwA9agJYmaVSzeV7KtmXgiS1jWOF7VC2W55dTDRP-ZHjkwmsMopDiXafDRLuHwUTKBG2",
+    "model": "gpt-5.4-nano",
+    "object": "response",
+    "created_at": 1778072893.0,
+    "output_text": "The joke was about **atoms**—it says they “make up everything,” meaning both that atoms literally build the world and that they’re “not trustworthy” (a wordplay on “make up”).",
+    "usage": {
+      "input_tokens": 48,
+      "output_tokens": 45,
+      "total_tokens": 93,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about **atoms**—it says they “make up everything,” meaning both that atoms literally build the world and that they’re “not trustworthy” (a wordplay on “make up”)."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "model": "deepseek/deepseek-r1-distill-llama-70b",
+  "timestamp": "20260506_160857",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_MWuG9MDIJU-Y4quge-LujnQiixZJawm2MqfENPWLmlN7k-3qk1PicQ_rtKzKuwsXrqmwFF8hVsaLB2DkYAsyO49IR5FrfH8Mq6nAeuVf-Y6Imrv9_JXZvqm72UxWnxMw5zSyfqEr9tl1AVv3br0DNdXjh5g_miue7BH3dq67G1gTbP2XUGUMqIvxo5DTWEmX-T08n0-E6lDtS3n83xLLEbvhdtS4JtPLGl5cDv0XqFm8thkvq4llZwi7g1LbsoN_6CdzE3-QjQWFbEAVu6tFQbYms48ejd4txjEhZJ5Vs-nZT0AJiLcO5WwfP0sL8u22t81Ks5EMeCKyDWAOWz-ug0sSlWLuNtLAgVTYin_AcceN5TBLf35wU9MX-c9BC9JvwlUeQIFacytScuxBGc6kptJ1qcvtfNBKNmnO",
+    "model": "deepseek/deepseek-r1-distill-llama-70b",
+    "object": "response",
+    "created_at": 1778072925.0,
+    "output_text": "Sure! Why don't eggs tell jokes? Because they'd crack up!",
+    "usage": {
+      "input_tokens": 13,
+      "output_tokens": 175,
+      "total_tokens": 188,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Sure! Why don't eggs tell jokes? Because they'd crack up!"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_h0ZPvWEXqnCvyXP6-jlEigus6CvEV5-WT-gkP8zYscbQXWNm2Hk44_-PqAy52BOR9rWvEA7OEKSW7DZPaFfiCmTpUE5UGukWFu_dpbIZelW6rACiimfZrBKQPIpk5Wl2vSyQ0uilUZY40qopjW_Cq7F6jjUkYO3ya8-veUdFHnFDVFaLEcA3WeTb9o5T-0ElRSoLsFmDp5imIbQ0LOCC_m0pPI7qmyUid15hKSFLo1J8Ire9L3oxAR9eqSai_INiWUYBMQ3_X2qVyLojTc3Offx61AM5OOJ-SysvOd83tiUmF2KwaBAI9xsfxLUT4_Q9NcJnwZbYqcRxt6CckTWpUTWn3VKSIYgjXhACxJJviMYcH92qTPc99LL6yhEOd06p_qecORSEtGa8YkSCu4YApfkmEmr3GdKKRBsZ",
+    "model": "deepseek/deepseek-r1-distill-llama-70b",
+    "object": "response",
+    "created_at": 1778072929.0,
+    "output_text": "Ah, I'd be happy to explain! The joke is about eggs and why they don't tell jokes. It's a play on words with the phrase \"crack up,\" which means to laugh a lot. But since eggs can literally \"crack\" open, the joke is a pun connecting the two meanings of \"crack up.\" 😄\n\nAnd sure, here's another one if you'd like!",
+    "usage": {
+      "input_tokens": 39,
+      "output_tokens": 317,
+      "total_tokens": 356,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 295
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Ah, I'd be happy to explain! The joke is about eggs and why they don't tell jokes. It's a play on words with the phrase \"crack up,\" which means to laugh a lot. But since eggs can literally \"crack\" open, the joke is a pun connecting the two meanings of \"crack up.\" 😄\n\nAnd sure, here's another one if you'd like!"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

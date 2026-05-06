@@ -1,0 +1,68 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "timestamp": "20260506_161614",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_K_8KVZRaDy4Oeg6InIZHWrmCHAy09fblgzB4HNcCHNAwJq9xo7kaawdqdxpzKgDYBtYj0kST09mrHy6yaNGnFHCj1QMsBhtw2CWitULEoW9QVZ6O8IXzbqfNGfnWS-ok-vCi6YuojjOSQcHbiIoSQwXUMPaev4jCqu_2H7fSnvsMrGDVyIieqywgrXCZdjdC6sxntEUJqssyj9AqcJ5KekO8t5VL_P6wHxdLNaMvUdIeSGQFs8d_X2HywNR8lDMjwZIqbrfgw39YMW857KuTYG3T0kXzgJ5HGAuHXo5j4_anIHMpK_Js_KIRkaf_wdiwW8m5B_DllP05kJ7f9az2qyDVcFzaCx6_zNGnH8wFuklWgN7MEtXGX0NrersB1-3rKHRjoOJ1fz9_ujh0S1V8SbcKsJOqSjuL-r9W1AjqypOJyVssQKXw1-RLcjdHdfXIKnob",
+    "model": "gpt-4o-mini",
+    "object": "response",
+    "created_at": 1778073371.0,
+    "output_text": "Why did the scarecrow win an award? \n\nBecause he was outstanding in his field!",
+    "usage": {
+      "input_tokens": 15,
+      "output_tokens": 19,
+      "total_tokens": 34,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why did the scarecrow win an award? \n\nBecause he was outstanding in his field!"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_RcZto_iUqVhPSzanzrQVxNVwf9epHYnjNzU_bJzMOt2iBOyD1LIkApXFNDOM3eOi4Yzebh7AKwTc8LjsfBMbqIN1v20ZizNQvmbcJVOxYjm7SnOUwibzDt106FI2aAIEWR-Nsxl211FbmGWrpJWXHWilR2tYPXLGdHErYH_P0MI2LNMwPwDSijJ_KHqgJ9koIKnNs35h_Bv70UGguckOnUbB8Itiv0_C8v-4yQpigMUMdgEan_O0qnNV5ZPgU_b2v1_GEW-0NZr6ACg6jRDciPy-uF4T5yi4GwEL-dABIxMbFb1ACcYDq4KIX40UDsHkEzchNMJyqr5WO2PzyLqHEDGyJ0X4fGiSLTvoy8UV4OMe6nDrU3gWCXMFu119JEkz3xj840Fx1jwnvXBhzgQuQaD9WEkUqwLVImfOjIXEH3_adoXLt-3pAw2RSX9nGiCso4Ma",
+    "model": "gpt-4o-mini",
+    "object": "response",
+    "created_at": 1778073372.0,
+    "output_text": "The joke was a play on words! It highlighted how a scarecrow is literally \"outstanding\" in a field where crops grow, while also suggesting that it's exceptional at its job. Do you enjoy puns and wordplay?",
+    "usage": {
+      "input_tokens": 51,
+      "output_tokens": 47,
+      "total_tokens": 98,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was a play on words! It highlighted how a scarecrow is literally \"outstanding\" in a field where crops grow, while also suggesting that it's exceptional at its job. Do you enjoy puns and wordplay?"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

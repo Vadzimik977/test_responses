@@ -1,0 +1,68 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "timestamp": "20260506_161241",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_b3hIgsU8VEk2YSsG55j8r_ofCF55Li7krUO5NRM4jjLJ383wdq7XY3GMM0BsJYJOrUE_fCrdIZiwdC7TF3b1gx9q4XVE9yfzvFWx8vR2iPVEH89_McaaE9X4vJHdaYhz8GUemueX0ucMu48N9Zh4dkotYy35k7YRcs7vM-xRVrwrSo6f3kjHcuVvmp7lzMvyx_J_UkliaIcxlI5sh9Zb47DfN3vxTyCqjrDygJa_DKyVNc5hiVWif1KqK4N4G8wuizK7rv88F1DoaH_3ABrAjfOyj48SsQAknvjFzi6OCi6xYYz6hqUsXR9cOrNwTlAURXSUxxAHYjU5hye5nx-dh039mff_eld6ugFc3A6M7MQxjKiS32UGPLtaSRBnlHOz0kw_OPO0rkyu5BVRFWjm34TDwoa7xRgQTQIH",
+    "model": "anthropic/claude-sonnet-4.5",
+    "object": "response",
+    "created_at": 1778073156.0,
+    "output_text": "Why don't scientists trust atoms?\n\nBecause they make up everything! 😄",
+    "usage": {
+      "input_tokens": 15,
+      "output_tokens": 20,
+      "total_tokens": 35,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don't scientists trust atoms?\n\nBecause they make up everything! 😄"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_O2du1sMme_RwacUSu4n-unI3FYuUngpn-stZbkug7nyLWwqHm3QkCK5oOQFCyqWvrNEloriZpLFh2PoqhMGEYqBM40EtnnABLUcOqzzG1v8XMpKaLD_QQNpWLM161XLtNNoNsR1Q-bNzKLlY0TDYGyledANPX2MbscPWFOWR31rmCr383JdV2C87lLo_ce1bx8Ivl-XkSQoo6Q-Lmd8FnU97OSPEm6JfDrjpz7VLL6aOuyOXVGyFeeJiV4K_c1EXLHgtmvydh1Y6XDwfqjHsrRJUi3Zza_6sVHOWEEtjn9YCVtT9FEPF0GsPlTTHkLgnwAY10TLJadA8dh8VPtA_PcWmckpTamCtKtxelohDsq5TltVEAjaXhPppvQYmOZyZcCQFqmmXmVqc1NreEp2dvv-5DBwIQh9ZMKYk",
+    "model": "anthropic/claude-sonnet-4.5",
+    "object": "response",
+    "created_at": 1778073160.0,
+    "output_text": "The joke was about atoms! It's a play on words - \"make up\" has two meanings:\n\n1. Atoms literally *make up* (compose) everything in the physical world\n2. \"Make up\" also means to lie or fabricate stories\n\nSo the joke suggests scientists don't trust atoms because they \"lie\" - but really it's just because atoms are the building blocks of all matter. It's a classic science pun! 😊",
+    "usage": {
+      "input_tokens": 48,
+      "output_tokens": 99,
+      "total_tokens": 147,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about atoms! It's a play on words - \"make up\" has two meanings:\n\n1. Atoms literally *make up* (compose) everything in the physical world\n2. \"Make up\" also means to lie or fabricate stories\n\nSo the joke suggests scientists don't trust atoms because they \"lie\" - but really it's just because atoms are the building blocks of all matter. It's a classic science pun! 😊"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

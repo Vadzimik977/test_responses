@@ -1,0 +1,48 @@
+{
+  "model": "qwen/qwen3.5-397b-a17b",
+  "timestamp": "20260506_161008",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_laqTkYWwbST3KZ0WFgK0NfVli4Q2F5_HLkcSY7I7Em25ux37AValml59fDJ-2voO52AGn_qKHQrrcdlLDi3tV19ormZTeb5tATf7gThrS80PJq_VcdVrfVe_0JYSx2WNrCEmbpOxpK1BBsJveco1qVxo-G6d6XzWRtigV4Wx8-rX0PuqfBdSZQGZKRm3UnXg8bQzycdkWzMkENAHipA4wxXQVfpnlgrTYM8Zez0CRCbR_PhTSqFna2qCc_9PfK6wLAQ5DeK_TkONUm-MhCy_rKJh4cc9lG8krQqKlu0iur538AaaYelBpzEA0X9m48-2EqNDfa_pMEf9pO7upADJqhHnW7F_M4IzkPhtIuau1yBNWQYaf6u6riLZdo8SX-hvuKHMwJDjeFk7CqAbC_3hd8n8Tr582po3KN_02F1OMQ==",
+    "model": "qwen3.5-397b-a17b",
+    "object": "response",
+    "created_at": 1778072986.0,
+    "output_text": "Hello! Why don't eggs tell jokes? Because they'd crack each other up! 🍳😄",
+    "usage": {
+      "input_tokens": 54,
+      "output_tokens": 405,
+      "total_tokens": 459,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 378
+      }
+    },
+    "output": []
+  },
+  "turn_2": {
+    "id": "resp_z-WWDkPtJZIPCOMVeuY5zVwe5rz0S7EfYCWclT1F1B6KxGJaji3LXIkapr7GP65v0ncKYNqlyLtqfyPS743Yn4-7ZVVyOqAoJ33lrp9EGlJjqBlmgWgCaiBTmLJtDYjVZxieoq0fCPyxUXp9Q3tmtEuZ0wJ4lzZo4KkuAlL14Vnnb2LkeHGIS5qFM-jUi7bxd-5UX09OlPLcJOmedOOZR6wC_zOjjg0_rRu751UWqWiegVzRwp8Z54qERe2g9r8JM6IVg3KqkQUFh14b40OP_LX8pVRI5TY9jkRfxbLxC7irOGHKH77Q8uuyOjTrvbmRXTunyLsYJXR8BhBfhQtdVwaPsuLfSS8o0GaKDT7hJlfU2qBYgCV6HrQcGoDegrC-92jzvQJLmoXJdFwNXhPv_l9kOOhY5DnjWm5xnhnvpw==",
+    "model": "qwen3.5-397b-a17b",
+    "object": "response",
+    "created_at": 1778072996.0,
+    "output_text": "That joke was about **eggs** and a little play on words!\n\nIt relies on the double meaning of the word **\"crack\"**:\n1.  Eggs have shells that can physically **crack** open.\n2.  When people laugh really hard, we say they **\"crack up.\"**\n\nSo, the humor comes from imagining eggs laughing so hard that they literally break each other! 🥚😂",
+    "usage": {
+      "input_tokens": 96,
+      "output_tokens": 640,
+      "total_tokens": 736,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 546
+      }
+    },
+    "output": []
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

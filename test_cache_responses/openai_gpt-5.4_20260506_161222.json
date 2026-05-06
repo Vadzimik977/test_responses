@@ -1,0 +1,68 @@
+{
+  "model": "openai/gpt-5.4",
+  "timestamp": "20260506_161222",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_Sq4PThNI1qX0NmdIjJkhRkKtBHHcaxpRaBkVWkITYgC5P04boscxSsl0DOiOYL47x9ijcVAkQbuuWpts7706iatH0LIFsf2VVqWyyuYNm9lntj2Xi448YxFRrl09D8FKNVdWHckHcCdcZ9IAgcqJz6OHtApMOPr6c9CZHAb4xVObhLOzv4f_XrhcoWiePXv7_-2Rzn18b4w37XqwOinO08AvaVo7wIUp4xdDiT96_iYNrz8N8XE0vAFi8TuqAWbW5FKZYr4GE6r7HWM4J1qYEe1L8wOc1r5bhMdaPB2BcN2NIdnAfpYhL4Qzz9micXHB-HhnqETU2rlbnbYwuef_cXoPIuwpXaw4DIKt46HxOSLCGAIU9VfTe2I2h7FO5LrudYk-nceadMNG2bbkA3a-AoDvO1kg8EwWB0ttnhH5BB0Erqd5WcmQyr_5TelJB8Hg7ohz",
+    "model": "gpt-5.4",
+    "object": "response",
+    "created_at": 1778073097.0,
+    "output_text": "Why don’t skeletons fight each other?\n\nThey don’t have the guts.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 20,
+      "total_tokens": 34,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don’t skeletons fight each other?\n\nThey don’t have the guts."
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_3sjhGLLJjztsYUmusPGUYVHTMjuzMq6_NufokRvoQT01mp40gqiyvxae-oxSj0mprwbpv83W7sjlHkkcVmJCUf4D-oX34_3hoYj17KEKf4HBROStDsnhKXdfumYuHJmNQxXRys1BcmrReTo8PnLnpuv4xjT8KOpR8kY5LDjnbPUpT4Puroqtmd90n0q8ujq0Ra9-vHidzDNQ44qiPNV3ZdqCwtx_ty192pWKjj7ij6DcNTryclBaBclv3k89xG9nPQmhOJerRsKSH3_qvK-9g1DOVHo0YD80kFAfkRcholBlTMRpqcLMequIXAsvnMrmXJg5K7ioeJubw6h_UhrnC-T5Ppe6fBo_npTusf3xAvjA_9FE9aczz8HwauM_zQHEM0rB1JlxVSELhTc6BJsD0gyCZLBwO-zrhE6Pq5kWpVRcEhE1OV8HsFNwCCGByPDNEShW",
+    "model": "gpt-5.4",
+    "object": "response",
+    "created_at": 1778073098.0,
+    "output_text": "It was a skeleton joke — specifically: “Why don’t skeletons fight each other? They don’t have the guts.”",
+    "usage": {
+      "input_tokens": 50,
+      "output_tokens": 29,
+      "total_tokens": 79,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "It was a skeleton joke — specifically: “Why don’t skeletons fight each other? They don’t have the guts.”"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

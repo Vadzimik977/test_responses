@@ -1,0 +1,68 @@
+{
+  "model": "xiaomi/mimo-v2.5",
+  "timestamp": "20260506_161351",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_jHO1afZIFgCAh27RFw04aBgeVgTRmasF2i_9IRWkvepccM7HC1ex7f1SjuSmLMumk3HoVzKYLZPMTyhduH3hi-QZ8rx0lp1gG8zSSz_qhpBntOFSBJJzcJYtO8lO9vxvCRrDJ15IdXN8hFcdAO_wuMWLL3p2bkQIDL94WumWU9Fp_-ZY6KXV16EoDWKdzjVOLAgvUErQeE-EDusfFLHF8DDXC8iL3VPZtsdXvBDny7K3UzmdVIhIN9FQj4tYbPrlOxaTHk_wL1MJY7Ye_uOrl0cCeTHtatltfmUZAO4LAh4re2ZsaJord970706GozmPJsNgaGG8vFPdq6Ej6wqi3ripy8vzgAYnEeoeEWa_zsWRvMd8l4QREUuKmlUF51QMqnAiiOubkSWXq9qrBHtvTOeSLOriTrLvKMR6",
+    "model": "xiaomi/mimo-v2.5-20260422",
+    "object": "response",
+    "created_at": 1778073224.0,
+    "output_text": "Why don’t penguins like refrigerators?  \nBecause they’re afraid of catching a *cold*! 🐧❄️",
+    "usage": {
+      "input_tokens": 255,
+      "output_tokens": 163,
+      "total_tokens": 418,
+      "input_tokens_details": {
+        "cached_tokens": 192
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 134
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don’t penguins like refrigerators?  \nBecause they’re afraid of catching a *cold*! 🐧❄️"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_0sax8zivGL1BmzE7f7_lRHi76bx0S9rqcs5EKJaI2zlQxPC-gsFMTcSCs73VDC28JHTMk_eiFXTHJ0dYhD0Ecu-7yF0uCtbnft0GkG5zMomMuVG_nr_js9XFaFpRXsYn8iFndR4VfZ-PoJJU7-tvovvYJStkRGkjn74vPY8XmlSf0ZYQxDNTqk0T0jyt_-5RkMetvyqhrHKlpyB0eRKSt2fEgzejRas8ypA4G3T4aIGmEX9Tkrs68Cuxaa2TUk4MkkQWctzscUq15n-JsW3RbewLwmgZLz7U2VK4fjnRDnNBc4-dtseaEzxPYyMha67P65rO3iqs4M0CGnlOJWjnlI1XWjT84PAIUSi6O4t0qjbswHYUXbpR19YocEuKZ6Wp7SIGuVAmSng9NrpSE6s6THflgNKZFfx0G2MG",
+    "model": "xiaomi/mimo-v2.5-20260422",
+    "object": "response",
+    "created_at": 1778073227.0,
+    "output_text": "The joke was a pun (wordplay) about **\"cold\"** having two meanings:\n\n1. **The temperature** — refrigerators are cold, and penguins naturally live in freezing environments\n2. **The illness** — \"catching a cold\" means getting sick\n\nThe humor comes from the irony: penguins are creatures that thrive in icy, freezing places, so it's silly to imagine them being scared of a refrigerator! 🐧\n\nDo you want to hear another one, or shall we chat about something else? 😊",
+    "usage": {
+      "input_tokens": 301,
+      "output_tokens": 279,
+      "total_tokens": 580,
+      "input_tokens_details": {
+        "cached_tokens": 192
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was a pun (wordplay) about **\"cold\"** having two meanings:\n\n1. **The temperature** — refrigerators are cold, and penguins naturally live in freezing environments\n2. **The illness** — \"catching a cold\" means getting sick\n\nThe humor comes from the irony: penguins are creatures that thrive in icy, freezing places, so it's silly to imagine them being scared of a refrigerator! 🐧\n\nDo you want to hear another one, or shall we chat about something else? 😊"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

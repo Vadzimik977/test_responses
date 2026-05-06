@@ -1,0 +1,68 @@
+{
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "timestamp": "20260506_161301",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_Mk-qnT7TcFJO8JQPSqo18ge1biCgdu1bc9TnjBE36a1Mt2zunRFoKQwmax16XIi6lvX0ALZmh1wDAXnQ_0oqzE6NPZR1FSq9bCbGuVntzZBgW9-q0HSSSgpLsSGYrIUiqKVYmYKR6FYk9JjPMMbIji61cMLaYcdq6Ji3VVMfy7flBLY3UaeivbO7WCsqbv7mk04nVv1cOpe6QoGLxrRc1hcj9MxwXfBQISxQfxmGJAZxbLUhZAtBsIr3mDkzDY_0xbJzOdBt1pnvXHveF9d0WgkZRnik5_1Yn-PBNYcALv4jyQ2uCOgRRo6bEO51RhQjWmRgOLaPvcph39d4vulKStgJW6lWPnOZTl8hN3MQg5kv1dSl7n6qdibRZGSrCsqXkVYsluc7KuZJf13dux6XQe7f4IUe01Gco0I5",
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "object": "response",
+    "created_at": 1778073175.0,
+    "output_text": "Here's a short one:\n\nWhat do you call a fake noodle?\n\nAn impasta!\n\nHope that made you smile!",
+    "usage": {
+      "input_tokens": 18,
+      "output_tokens": 26,
+      "total_tokens": 44,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Here's a short one:\n\nWhat do you call a fake noodle?\n\nAn impasta!\n\nHope that made you smile!"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_akPZf2gn07nzvxognQYBUdx_U8rezyhqbjLJwY_d_JWMPOXGqQWhF4gPWeWOtYG2LgCloyowQO-tEqm_MpzA0wTj7e4hH4aHHafoM5XmrBYc4YzANVbBRDFFzP6GWuObXgRIKIHNZS2fk54L_CcFAu92_7Nwpit18R-Reop2oukqruWb7u03iAe_5hUvBDBPAGF6GWEiyTZIDHge_rsdLgN3wb4IGZURjUjEgyviG_k6ZrlQwwRpujfPZUuUg1Z6K3zdEyctDTUnjTzIL9rMTKJHPv0JVr2n8bHPIjnuMQ7F0hxp3caByS3O8nsK7SACJwelucZc8dvJbLwQnQuzBJHtVFp7VhyXi8NbMLXNFYe06BfXry4UzGwosHAouYK24gYZn89lbB4AgLu3YWOJ0amx92iAShgpwJSB",
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "object": "response",
+    "created_at": 1778073176.0,
+    "output_text": "The joke was about a play on words. \"Impasta\" sounds like \"impostor\", but it's also a reference to pasta, which is a type of noodle. So, the joke is saying that a fake noodle is an \"impasta\", get it?\n\nI love jokes like this because they're simple, yet clever. They use wordplay to create a pun, and it's amazing how much humor can come from just a few words.\n\nDo you have a favorite type of joke or humor?",
+    "usage": {
+      "input_tokens": 63,
+      "output_tokens": 106,
+      "total_tokens": 169,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about a play on words. \"Impasta\" sounds like \"impostor\", but it's also a reference to pasta, which is a type of noodle. So, the joke is saying that a fake noodle is an \"impasta\", get it?\n\nI love jokes like this because they're simple, yet clever. They use wordplay to create a pun, and it's amazing how much humor can come from just a few words.\n\nDo you have a favorite type of joke or humor?"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

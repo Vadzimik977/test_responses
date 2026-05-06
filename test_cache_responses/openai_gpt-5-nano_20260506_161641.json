@@ -1,0 +1,48 @@
+{
+  "model": "openai/gpt-5-nano",
+  "timestamp": "20260506_161641",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_UwshDpY9Ppkp-PbE-cj3xHwk-N8No40lxUCGZeqIs7f-yEGtrIXmbB5LzJ365ShYdqX2Cseimr5914mxjaaSh4hA-9tnDKF-KnLoySHVncurVbJN6I6ZcJtggWhP1no59G706tJjfyRUW_AKGN6zkcL3ZezXSLc4HNSL3yvkFruC4ZXi5P3ErL3xK4s1zSeNbP1KahiPjaiwbuji9N9TgODjHFuTNh1mBwhc2bItcLkW0a-VN_6SQutSSXVeVdijPggXJoZ7_6Kipz9lEA4lOyx4qMms09gHLMZCnUKonvDHlcU6e39ntPCKtaOPhdSPVWK4iwFZz5vIuguem-uEDRpU_QTEFzsEFCK8c047vjY15yHecw1ab4yTq5Rc5PShdggwzMrgwz2F0zbxgRSHQF5T7PET2z37uvtYJBBBpnYrwR7xAiY5fR66rJEg6IsRPFjS",
+    "model": "gpt-5-nano",
+    "object": "response",
+    "created_at": 1778073395.0,
+    "output_text": "Why don't scientists trust atoms? Because they make up everything.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 355,
+      "total_tokens": 369,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 320
+      }
+    },
+    "output": []
+  },
+  "turn_2": {
+    "id": "resp_WdW9MVwEhZ57KrHIQ4XUrIdIi7qD-aekT81YMlYclDalj8CInYYxjpnEWblVYN0HbziMQs-K8fRBJ2lGVwH-plsfNHANwTzorm0eR4FDvkU-2fTTCZcQMtFrB5B9aEGv7H70aAeyUPcm2za8pk1l38m-Gyq6ciWJ55QGWoAc2y7K8xnxqMtRsoMVh3HXXDGyltifALEhXlDhQB2w9-wcoN_Skui0sNIK8zlRnG9Gwg8he4nqTgc_PgZVmTG1N2_6aNNFk27qR6HpQAvRR5owC90FOUeM-gzjYFSABmHBEh2UgTkXMnoeLSCmBVavFQAjC_9UMZoaIiAKlRUnZ9dIsQMBrxRIFA3f4p_Z3YLa67JXo5DWhml6T3gb_2g_YQTEyFwmArU2rAGlzzIrp1xRR_kvnWLy_phAiNfggMswfvNlrLINGHzt_Dl5lP-CKexHUe9p",
+    "model": "gpt-5-nano",
+    "object": "response",
+    "created_at": 1778073398.0,
+    "output_text": "It’s a science pun. The phrase “make up” has two meanings: atoms “make up” (constitute) all matter, and to “make up” a story (lie). So the joke plays on both senses of the phrase. Want another joke or a different topic?",
+    "usage": {
+      "input_tokens": 46,
+      "output_tokens": 495,
+      "total_tokens": 541,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 384
+      }
+    },
+    "output": []
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

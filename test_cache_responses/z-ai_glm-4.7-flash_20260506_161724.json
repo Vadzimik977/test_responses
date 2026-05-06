@@ -1,0 +1,68 @@
+{
+  "model": "z-ai/glm-4.7-flash",
+  "timestamp": "20260506_161724",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_3MRmeXkqJLSEaej6jhFgyb_Xiym42lvE548YCZUVSl0wM_rk4bjNSqj1aCHceI3AJI_i_9Ev9-mQZFGi1xjw5qmocJ5YclbOtA3v5Np8hOC0wNMaMmpDV98xHxW1xyEYOnQjtcnsR90zRf1Vk9dW1J5rcDerIHGsnMfYsH33et5H6U-ZCEWuO8eoYPsI5ECo2rUw_7tvwol8r-ANDqRfX5c1fGWIk9nTzootp7ZSgOHmw5IxqJDxePpFNWnXtWyuG9lyCBzxav22Sv4JaFwITufShGfUelzyVXKmWayak5upGYXkWW2xCpRUQDZfeoMAl9Uhwglj1QQsq7ruDq_kfZUOMYY5ZyOvJbkKw-GY8ybAxBsQpkmaS5C2KLt0d93pUIiuyODtpbHNxZmW5qeUJ08ziPoJQKLPt9i0",
+    "model": "z-ai/glm-4.7-flash",
+    "object": "response",
+    "created_at": 1778073443.0,
+    "output_text": "Why don't scientists trust atoms?\n\nBecause they make up everything",
+    "usage": {
+      "input_tokens": 13,
+      "output_tokens": 13,
+      "total_tokens": 26,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don't scientists trust atoms?\n\nBecause they make up everything"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp__dlm3L3GSALmqgVN8Ohn9Ws91RbOWrarGulBVRmoa6EPBVbH4RqP3eZxLTnw5hiTUsc95gvOJxY07OGBKFgbqmGcxqbFS1XsjUMJ0jm2uaOAd3nh-GfJm9RW0H2cEhOsWM-3ZR87MCJS7qYNeLaqcl3NNFVcyfpyPEfqsP6ht3tZ3gG2Jsl0g-WxY1zJiBolGaAGJ4PDbh0xfqptWk6Bx7UDqunkxvUYO79zk7XMIVWCPh-kVy-sv95-qzGAGje9QotF9dUUQEeK8I33C6kiGdxlka-1s2kr6abSRPFGe95557bT26sQNYYjpzb-ZHwGWmPtJdXY8P3l-A6QDivnDs4Nox0S0nDuVcz62ZjEfzlmhZ75aysigxgpq_ZQnpi3dm4Lzw8HdqEHDcrOpiZj04kEEIKQfAy004r-",
+    "model": "z-ai/glm-4.7-flash",
+    "object": "response",
+    "created_at": 1778073444.0,
+    "output_text": "The joke was about **atoms**.\n\nSpecifically, it uses a play on words at the end. An atom is a \"building block\" of matter, but it \"makes up\" (creates) \"everything.\"\n\nThe punchline implies that because atoms are the fundamental building blocks of the universe, it's easy for them to lie, much like someone who *makes up* stories is often viewed as untrustworthy.",
+    "usage": {
+      "input_tokens": 38,
+      "output_tokens": 86,
+      "total_tokens": 124,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about **atoms**.\n\nSpecifically, it uses a play on words at the end. An atom is a \"building block\" of matter, but it \"makes up\" (creates) \"everything.\"\n\nThe punchline implies that because atoms are the fundamental building blocks of the universe, it's easy for them to lie, much like someone who *makes up* stories is often viewed as untrustworthy."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

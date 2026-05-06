@@ -1,0 +1,68 @@
+{
+  "model": "z-ai/glm-4.6v-flash",
+  "timestamp": "20260506_160711",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_Jq-0Mpa1jeVOgpXVzV9ITlUCG4NU-q_26yQp6LsWsmjxmNDZy4XQfHA9vuMUeWDnxpbCrdNjQ54Bp3WIXSraEOQKBRNaRqjIJRCZ1ffbV7AC4kUaNMQcy2Ye9wpmse0m-Zn7p05FWRyCm9uAU29y6laylbeFwRO_c1JP_XFnNtHzq8IEfHTW_F3FUEvvuMy33ullNYA4Gijvdbd4r1A3-hnDqlc5RmypkLbyYrhcKAcMN47o76ltaPOPV9dyyNUjMGsS4xlO9szu7CwVZbrxmziDmcTilWeFzKeZdb73eUb9JLBIrh-7OcOf7nYyaqURKArCM0pRNmwA4sE84PcqKdCBQsJlAwfeY9PDv-tOa9jbEui5YOcCqooPffrzwArYC2YOHDZdt3cYN8CdSKXk7Qz0JX-gd88Ow94Z",
+    "model": "GLM-4.6V-Flash",
+    "object": "response",
+    "created_at": 1778072812.0,
+    "output_text": "\nWhy was the math book sad?  \nBecause it had too many problems.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 187,
+      "total_tokens": 201,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 168
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "\nWhy was the math book sad?  \nBecause it had too many problems."
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_878l6sR0ff9aXCgGuUD5ZX50lnR9TSDrFMD1UyrtgjpS9NH01wBZAbx5TRVKNwxkusLylVXosA5Cv6enXzXGMMpKMP3uV8QAdNWi2QBiXyqzYoDqrQMa2mpKIrJ6eIpzZXLfQa2Dbho83QUumBD2oA1zKIEgL1QJHjpDazZEkahQeVl-sgiawOWqkgum2UFrhhTt2X6G0AhfveHQ1i6QElP3atA8AsrTOi7bTWwiJu7wpW6-yat4KIXGlXs2KveyNHUHmkwpmvU6HwDgbcVCYjt5517i7dp4MUbmNnj5gdXfqAdOCUbdW4pT-XTgOrK_J5LPzO7shzda05gDYmP5_TsFJu-mqBfyERUIjkeWo0lURZaTluH_6sTP7JDX7cLzi64rEHFDd31Hpet2NKb_cQFjwsIUXCNWKkY6",
+    "model": "GLM-4.6V-Flash",
+    "object": "response",
+    "created_at": 1778072830.0,
+    "output_text": "\nThe joke was a play on words, or a pun, on the word **\"problems\"**.\n\n*   A math book is full of **problems** (the exercises or questions to solve).\n*   The joke says the book was sad **because** it had too many of these **problems**.\n\nIt's funny because it uses the same word to describe both the exercises and the sadness.",
+    "usage": {
+      "input_tokens": 46,
+      "output_tokens": 524,
+      "total_tokens": 570,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 440
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "\nThe joke was a play on words, or a pun, on the word **\"problems\"**.\n\n*   A math book is full of **problems** (the exercises or questions to solve).\n*   The joke says the book was sad **because** it had too many of these **problems**.\n\nIt's funny because it uses the same word to describe both the exercises and the sadness."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

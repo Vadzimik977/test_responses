@@ -1,0 +1,68 @@
+{
+  "model": "openai/gpt-4.1",
+  "timestamp": "20260506_160629",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_G4gi5ypqPE1c69LIckErNaQCQ2tF3k34ndDsi8AkDpNs6yrcPGbNPvPTSCNFACR1Vv3eiInRH6o6wQM3LInnrOZ-ogOdxmw5pi0iLKfvV6Whn_1_H7-MllCfCxicSrYnwr3dCE6k7xtqE-MTXAhnNmnsBYZDW0WV-7uX2L3CR0-BCVvrU9pmCEcQfAWATRwrEBqDocwhfDuxvpGO_a8SrWYpF-RZZWs4g3gGiT3MTp7gzQURt_LW-ElLEaCOhckBa74zWPl_5_7X4EyEPvm1kE54k3Ppv47Ic9E5nl8lW_PaYz2S_xB6ZOmOH9shJapBwLohKHt2PlTuHKfTLk7nDfNHy-SsA6lhvmBt5OeRQXReJzwYmZRNiozPfb1ZeigJmKjQfaGu9Fw1wlLoBqoA0-l9SoyzKvm4hkAnjrDb9oJ_l1ZViXvlO70KsAFR1YkfWpM7",
+    "model": "gpt-4.1",
+    "object": "response",
+    "created_at": 1778072787.0,
+    "output_text": "Sure! Why don’t skeletons fight each other?\n\nThey don’t have the guts!",
+    "usage": {
+      "input_tokens": 15,
+      "output_tokens": 19,
+      "total_tokens": 34,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Sure! Why don’t skeletons fight each other?\n\nThey don’t have the guts!"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_2gInA1y82HQG89F8jL9ucM5_Rud3zGZ3hTCsgVRZfNP7LQ9Hi2h96Zcv2bXpky93Po5CID168xeT3W5fqp6H9Q6LalxoUwOen-S_hnXqjNqClIuVXcWL5q5zByD7cUGW6ELlHHQu1ohAGswG11Eo___HAtrH1ba_Z5AHgKCyE4PAPnAMWArPYS4EomeHS9HgdXLSCJoED3Ddb1IM9-wEg91l33kHYw_8OdZcXmBig8NwPSA44ZiKVzeuXxYbBmDxSIIq6KSUZ2-ZggUqkeI0_oS9KhPVN-uWSM1Ph-jNO6zRAoacJSnI-qsLumXiPVn_cz2JZa8JOhDa2zt2F1fGzBowsL0sDcWOCSiMyhVXlyMPlpZuq0jEhRMuOYCdJ1oMiCpLwQmfxEeyzYwske3gNhU_e-HNcHT4y4qv3Pflkn7aKnl5n2HwlT5hclrKYMyt5p8J",
+    "model": "gpt-4.1",
+    "object": "response",
+    "created_at": 1778072788.0,
+    "output_text": "The joke was about skeletons! It played on the idea that skeletons literally don’t have any guts (organs inside their bodies) and used the expression “have the guts,” which also means to be brave. So, the joke is funny because it combines the literal and figurative meaning of the phrase!",
+    "usage": {
+      "input_tokens": 51,
+      "output_tokens": 64,
+      "total_tokens": 115,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke was about skeletons! It played on the idea that skeletons literally don’t have any guts (organs inside their bodies) and used the expression “have the guts,” which also means to be brave. So, the joke is funny because it combines the literal and figurative meaning of the phrase!"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

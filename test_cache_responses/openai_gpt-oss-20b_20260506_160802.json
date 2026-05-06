@@ -1,0 +1,68 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "timestamp": "20260506_160802",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_qa6v7unQllv2j9NMNMeh7dOVr6hL8fiHfHzo9O1UsorHzgEtn0ncgXeUo0gFpbhak-MJhUAKD3ksaTfmQTvcAbUEuIAktb1tbeWY1DviNVFEQmRPIXnv2raaRhNZ_h5rB7F9Jz8gqWiEzbrPfYso1EqUS417WV1FkWyYmECFWO8z13OiUfvEqx3KASmh2UTpp8AAG6noHk2a7IXZ2XJXc7brEyjXTrSUsaZZxQ2K1NRXdWa6biZpoF_M0xBmbRVK4zODrNIi6KPDi5C5KIphZs9_nPQRNW999lAYx7vwrhHeH6JpDG9hOAvpUOlpj9Q2RJ5f-bWEOV4Q7AF6P-6rN-841xNkHwA7ytaQF_PedCAviZQrEtltUZqagZK0pj1wt_vh6MgTddqPU9HFa0olszklWZnCOLlaAVJj",
+    "model": "openai/gpt-oss-20b",
+    "object": "response",
+    "created_at": 1778072881.0,
+    "output_text": "Why don’t skeletons fight each other?\n\nThey don’t have the guts!",
+    "usage": {
+      "input_tokens": 75,
+      "output_tokens": 37,
+      "total_tokens": 112,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 12
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Why don’t skeletons fight each other?\n\nThey don’t have the guts!"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_8bPrt4qYAW1nB1lXUjJCoohYN40Dajzd8m4j0E__gCoKxUAl9MPdQr72GvM7BnM7fvl55h9QVPFQJuanVSkUN2v1RIXEuLSbzdu8F3ZMATsz4rXJ61OoiQ3KjpMTD9-zCIV7vizrcPkti0fkmSCTLC2ScD6nkCJBqgtV-n492yGyjTN92sP1xiHod8Oso3CVBur0-SRGNt8x2tRnNAunpz8vc-yLnfhtDM40WzYp8unBYTsrSt8DhWRGH7jXbijDEOktfuXBbMDrMBWwakKbdK2FiIMAkJ3cWKAm7-7CD1utfydX-xjwOduiArm9qK1GON-rGbv9BgTgDCOoXC8KEkBVqzQWeD0hY5lvRPojV0UpiMGzn-4bK3hqLcs8qa7R1zNyxFL3trCMh8oS8GgNa4AxgyFqLNVSB8qF",
+    "model": "openai/gpt-oss-20b",
+    "object": "response",
+    "created_at": 1778072881.0,
+    "output_text": "The joke plays on the double meaning of “guts.”  In the literal sense, a skeleton has no internal organs—so it literally lacks guts.  In the figurative sense, “having the guts” means having courage or nerve. So the punchline means that skeletons can’t fight each other because they’re literally — and metaphorically — “guts‑less.”",
+    "usage": {
+      "input_tokens": 111,
+      "output_tokens": 142,
+      "total_tokens": 253,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "The joke plays on the double meaning of “guts.”  In the literal sense, a skeleton has no internal organs—so it literally lacks guts.  In the figurative sense, “having the guts” means having courage or nerve. So the punchline means that skeletons can’t fight each other because they’re literally — and metaphorically — “guts‑less.”"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "model": "openai/gpt-5-mini",
+  "timestamp": "20260506_160641",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_lVkcofAGSL3K6-wrmM-vHauUJdxPFltNIJ5VmP_PORHVXJOLmbsfi5zmqq9aeJWrLDWhZzQxFTLZGr66Z2G76EslYujREcaFWIRIMcqtd1zWmVuuOPkvv5JqSkdhO9RnY03ATzb15abNspxxE0nxMg65LxM2d79CFi092WFhatgKg3kJB7GADNYP-FEsNw8WW9hkKijg9m5x5LBjzcp_Zc7RudK7sC0NK0ntrxfCA1T4QQLl22gYvF9GRQyxAhBMQO9Bdkm_2vGueNVxrGLmOM2Nha1v9u4fK3xGKgijHavFUphPSDDwcKDAULBaU3K8ym9a1iWTbpGEmGWUcbMlxgsZxhau1ziqPDdjS1SwoKeutds-250LNWf9b4rfCgUfRHsda_BvSxvEKPXuf36ReIoyp7ilkFBOBessfTZ-bmR5w6nnSnaYiw0uoaVktIWMWvGH",
+    "model": "gpt-5-mini",
+    "object": "response",
+    "created_at": 1778072791.0,
+    "output_text": "Hello! Why did the scarecrow win an award? Because he was outstanding in his field.",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 145,
+      "total_tokens": 159,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      }
+    },
+    "output": []
+  },
+  "turn_2": {
+    "id": "resp__dXCVqKnPmP6mBctTS3I0ZSg5yVI0HSD6vIj_U8fmGkjEZBwzpFknIT4NFJ-tWpF985_ezvrxmQqPhnU_tZVb7xu7b1AHmo3hM43IyCHgqP6X5638qtKjFfW-AnnqybImOx2M-xOr5gOOb3jkcMhUqThsaUt7_GBuRjdb8ksHbakoTPqG6AG64PKv1uBLmffzlud25UKMlBYdGqCGV5-ohNHfk4zecnMj4dvqFmZuyGAM0gptDAgDra-EforRElkwpPCu4Tg8xQO88KocL3lIgBilZrcXi-4jDt2SfUpavlkXwrV5eQLUeqjkWDArYPN2WPAMJruGwM_LzlEjCm2GBzP3snzu5qbOSiu-hKs1k1q7W8fD2MtW_QkXzXREVeP6QMWMqZ_QCXYUbzLTqH4PL-mco-LqQp4RUappOHQcEKZVCLENtDWGzPk-w6TUsMkb1On",
+    "model": "gpt-5-mini",
+    "object": "response",
+    "created_at": 1778072793.0,
+    "output_text": "It’s a pun: “outstanding in his field” literally describes a scarecrow standing out in a field, while idiomatically it means “exceptional at his job” — the joke plays on both meanings.",
+    "usage": {
+      "input_tokens": 53,
+      "output_tokens": 249,
+      "total_tokens": 302,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 192
+      }
+    },
+    "output": []
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

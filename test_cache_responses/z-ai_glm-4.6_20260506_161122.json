@@ -1,0 +1,68 @@
+{
+  "model": "z-ai/glm-4.6",
+  "timestamp": "20260506_161122",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp__fA7iOu8LO9yfFYl2OaE_YbvNMIq18QvOMZnKVMBd-4CEeyW6b2xEGuLeLhIHdMQNjhYtj8rCH3DAABChRvGf4634Wiqrmqq4WM77PAmAi6wCawheVbjwpJ6N369yWEq-MgkdjF2AoiIK2cklFnr90g3AH7s3sxCDPsw2ZlKs24nCH8RyY3rl9LJRZQMCnK2gxUyzaDNiddue3JwD3bOWtfufsQ3_fT1asWMAF6RikU_qktmhaCQmt_97b4TdiyNfWh4CJE2YefESQ36xuHbzInWxgyH-DgEauKj6fy-wNJQ4fkNa6f2XvjaL6CCO8hexb70enugxcIV-_vwNBdWX0pMv81ap-Jatnw21uVk1gmGwOuABm4DzUuRSKtiIxKm_RUYtfKyMTzc1xcV1j1IFdu8E0hoDiva4G9i",
+    "model": "z-ai/glm-4.6",
+    "object": "response",
+    "created_at": 1778073024.0,
+    "output_text": "\nWhy don't scientists trust atoms?\n\nBecause they make up everything",
+    "usage": {
+      "input_tokens": 13,
+      "output_tokens": 1208,
+      "total_tokens": 1221,
+      "input_tokens_details": {
+        "cached_tokens": 4
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 1198
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "\nWhy don't scientists trust atoms?\n\nBecause they make up everything"
+          }
+        ]
+      }
+    ]
+  },
+  "turn_2": {
+    "id": "resp_M9Uvye-OL4o7NHLA9FA-oRQOHnFR30emmZuwjAF9tA0FTN-FC0VErXdEoBNOnzsKNaIKI5UXSmStBnE42myrkUuB7ssO4Jv6Q35UQSN-xnwwXA7_M2l2dIg2OCM-Q65Q85mCvosLgQ_Q3QpdeV3tes0YszuNq3QuejrxBReb9UeVo1Ea_bIKWOtUxmJgsx_dVtyWEDIwC56ORLIvMxYzdKBq8R_DU9f6BWnXcgrS0m6MXBk-RW8Up-GauUDt1jFJr-h23a8HODxMasCutq7MjFJavARFuO4_cbw8QJjg-YTQDjrpZRPiD27oKuO4CCInSUhd6lC07tAWqsjJlF6qBXg8g9KtH1KlUH1Z4LerdQWpmeA3JD4kUG-wr7-0TqSxuGiLu-KUZDJ4Dolyk6ON0T1seNdaFRB_ekIT",
+    "model": "z-ai/glm-4.6",
+    "object": "response",
+    "created_at": 1778073050.0,
+    "output_text": "\nOf course! That joke is a classic pun, which means it plays on the double meaning of a word or phrase.\n\nHere's the breakdown:\n\n1.  **The Scientific Meaning:** In chemistry and physics, **atoms** are the fundamental building blocks of matter. They combine to form molecules, which make up everything we can see and touch—from the chair you're sitting on to the air you're breathing. So, in a very literal sense, atoms **\"make up everything.\"**\n\n2.  **The Colloquial Meaning:** In everyday language, when you say someone **\"made up\"** a story, it means they fabricated it or lied.\n\nThe joke's humor comes from smashing these two meanings together. It takes the scientific fact and applies the human, social meaning to it, creating the silly image that atoms are untrustworthy liars.\n\nSo, the punchline \"Because they make up everything\" is funny because it's true in a scientific sense, but also implies they're a bunch of fibbers",
+    "usage": {
+      "input_tokens": 42,
+      "output_tokens": 1262,
+      "total_tokens": 1304,
+      "input_tokens_details": {
+        "cached_tokens": 16
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 1126
+      }
+    },
+    "output": [
+      {
+        "type": "message",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "\nOf course! That joke is a classic pun, which means it plays on the double meaning of a word or phrase.\n\nHere's the breakdown:\n\n1.  **The Scientific Meaning:** In chemistry and physics, **atoms** are the fundamental building blocks of matter. They combine to form molecules, which make up everything we can see and touch—from the chair you're sitting on to the air you're breathing. So, in a very literal sense, atoms **\"make up everything.\"**\n\n2.  **The Colloquial Meaning:** In everyday language, when you say someone **\"made up\"** a story, it means they fabricated it or lied.\n\nThe joke's humor comes from smashing these two meanings together. It takes the scientific fact and applies the human, social meaning to it, creating the silly image that atoms are untrustworthy liars.\n\nSo, the punchline \"Because they make up everything\" is funny because it's true in a scientific sense, but also implies they're a bunch of fibbers"
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}

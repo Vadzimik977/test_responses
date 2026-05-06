@@ -1,0 +1,48 @@
+{
+  "model": "qwen/qwen3.6-35b-a3b",
+  "timestamp": "20260506_160532",
+  "test_type": "responses_api_cache_test",
+  "turn_1": {
+    "id": "resp_gl1fH1v4p7Panqhvekk9_UakjIPTSK1OiK_QfOfYPfJSiCSl0xeNcJy_e76WYgJDUf8PRH-E2BC_G4qTsf5R2nk2bJprwlKO_1XA1KFZ0LkMrCoZ9kmCtOiGfEKcJPW_2Mg-Y3DFoLkonwqImvHwLH7WKD1QXmGIXVUCQ56O4koj-J0OCe9D57PgQvzDAxd1l78HG6xUwO34VfEC-cAHXmD6EvD3itDfSYL4_Gs-ehmX8hduwqHM_NZ4XzpCWeu2ZvZDnuCDMGe2namx4QxBy8dtL42H0kIYMlo6asyd9HTi7h0Uogx30GrLacrq_UUUTTn0Cf-VZcgyyzDappFASb5-umuDS3Pumk4oV0t01Wl63dsh-OzYWylpPlB7EIYWxmYZ6s5_YKtjGunY8Jpg8W85bnC3AhMlTQkzEdrlKQ==",
+    "model": "qwen3.6-35b-a3b",
+    "object": "response",
+    "created_at": 1778072726.0,
+    "output_text": "Hello! Here's a quick one for you:\n\nWhy don't scientists trust atoms?  \nBecause they make up everything! 😄",
+    "usage": {
+      "input_tokens": 54,
+      "output_tokens": 384,
+      "total_tokens": 438,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 352
+      }
+    },
+    "output": []
+  },
+  "turn_2": {
+    "id": "resp_bll4MtQ1oMzbfAdj4lOSob8YVjcQSPHpk5_pLkiRJYmMcMnmmZy1luzHiNWHOe--aJBGuwPsb1gmzVHoQSTzK0-stdcYOz5lBSVmfxH2Yaue2EY3Gaq6mQp0g3m12V60WJAq2n8W1Bg4kkJqHEsnWJLrZlNovQm5lcEsSPwdD_zJnFtW0O6QVvRoK2h-WqHGKE2S36rrthEurm00PraHjuQLSZiADz3vd4PYYPN16bI2WMGQE0nAOi9lB9S4KTU6sSs5zSFZnB4mdCPeokbvuHzQv73DSBR8YEKwt3wrQ-pst0k-Ljj72YRW7P9vFqFs3aCDByDn62ePKZ_TQMOHTaOlogx60wJksjYRnZJ7MJ5w-bYdVs4WHXkeSPVYgq_ZtUvp9p2VqjybPTmRImx1AQAtbpNYDPZY40_iS7JqNg==",
+    "model": "qwen3.6-35b-a3b",
+    "object": "response",
+    "created_at": 1778072729.0,
+    "output_text": "That joke hinges on a clever play on words! \n\nIn science, atoms literally **\"make up\"** everything—they're the fundamental building blocks that compose all matter in the universe. But in everyday conversation, when someone `\"makes up\"` a story or fact, it usually means they're inventing or lying about it. So the humor comes from treating atoms like little gossipers who can't be trusted because they're always `making things up`!\n\nWant another joke, or is there a topic you'd prefer to dive into? 😊",
+    "usage": {
+      "input_tokens": 101,
+      "output_tokens": 501,
+      "total_tokens": 602,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 388
+      }
+    },
+    "output": []
+  },
+  "analysis": {
+    "same_model_used": true,
+    "previous_response_id_used": false,
+    "context_referenced": true
+  }
+}
