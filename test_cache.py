@@ -9,10 +9,8 @@
 Usage:
     python test_cache.py --api-key YOUR_KEY --model openai/gpt-4o
     
-    # Или получить список моделей из провайдера:
     python test_cache.py --api-key YOUR_KEY --list-models
     
-    # Тест всех моделей с сохранением JSON:
     python test_cache.py --api-key YOUR_KEY --test-all
 """
 
@@ -130,15 +128,14 @@ def to_json_serializable(obj):
     if isinstance(obj, dict):
         return {k: to_json_serializable(v) for k, v in obj.items()}
     
-    # Handle objects with __dict__
+ 
     if hasattr(obj, "__dict__"):
         return to_json_serializable(obj.__dict__)
     
-    # Handle objects with _asdict() (namedtuples)
+  
     if hasattr(obj, "_asdict"):
         return to_json_serializable(obj._asdict())
     
-    # Last resort: convert to string
     return str(obj)
 
 
@@ -152,7 +149,6 @@ def response_to_dict(response):
         "output_text": getattr(response, "output_text", None),
     }
     
-    # Try to get usage info
     try:
         if hasattr(response, "usage") and response.usage:
             usage = response.usage
@@ -163,19 +159,16 @@ def response_to_dict(response):
                 result["usage"]["output_tokens"] = usage.output_tokens
             if hasattr(usage, "total_tokens"):
                 result["usage"]["total_tokens"] = usage.total_tokens
-            # Check for cached_tokens
             if hasattr(usage, "cached_tokens"):
                 result["usage"]["cached_tokens"] = usage.cached_tokens
-            # Convert input_tokens_details to dict
             if hasattr(usage, "input_tokens_details") and usage.input_tokens_details:
                 result["usage"]["input_tokens_details"] = to_json_serializable(usage.input_tokens_details)
-            # Convert output_tokens_details to dict
             if hasattr(usage, "output_tokens_details") and usage.output_tokens_details:
                 result["usage"]["output_tokens_details"] = to_json_serializable(usage.output_tokens_details)
     except Exception as e:
         result["usage_error"] = str(e)
     
-    # Try to get output items
+
     try:
         if hasattr(response, "output") and response.output:
             result["output"] = []
@@ -268,7 +261,6 @@ def generate_markdown_report(results: list, responses_dir: str, output_file: str
 
 """
     
-    # Добавляем детали для каждой модели
     for model, success, error_msg, json_file in results:
         md_content += f"""### {model}
 
@@ -332,7 +324,6 @@ def test_responses_api_cache(api_key: str, model: str, base_url: str = "https://
     r1 = None
     r2 = None
     
-    # Turn 1: Create initial response
     print("Turn 1: Creating initial response...")
     try:
         r1 = client.responses.create(
@@ -345,14 +336,12 @@ def test_responses_api_cache(api_key: str, model: str, base_url: str = "https://
         print(f"  Model used: {r1.model}")
         print(f"  Output: {r1.output_text[:100]}...")
         
-        # Print usage info if available
         if hasattr(r1, "usage") and r1.usage:
             print(f"  Usage: {r1.usage}")
     except Exception as e:
         print(f"  ERROR: {e}")
         return False, str(e), None
     
-    # Turn 2: Use previous_response_id to test sticky behavior
     print("\nTurn 2: Testing sticky credential with previous_response_id...")
     try:
         r2 = client.responses.create(
@@ -366,11 +355,11 @@ def test_responses_api_cache(api_key: str, model: str, base_url: str = "https://
         print(f"  Model used: {r2.model}")
         print(f"  Output: {r2.output_text[:100]}...")
         
-        # Print usage info if available
+
         if hasattr(r2, "usage") and r2.usage:
             print(f"  Usage: {r2.usage}")
         
-        # Check if it referenced previous context
+
         if "joke" in r2.output_text.lower():
             print("  \n  OK: Response references previous context (cache works!)")
         else:
@@ -378,7 +367,7 @@ def test_responses_api_cache(api_key: str, model: str, base_url: str = "https://
             
     except Exception as e:
         print(f"  ERROR: {e}")
-        # Save r1 even if r2 failed
+
         if r1:
             json_file = save_responses_json(model, r1, type('obj', (object,), {
                 'id': 'ERROR', 'model': 'ERROR', 'output_text': str(e),
@@ -387,7 +376,7 @@ def test_responses_api_cache(api_key: str, model: str, base_url: str = "https://
             return False, str(e), json_file
         return False, str(e), None
     
-    # Save both responses to JSON
+
     json_file = save_responses_json(model, r1, r2, responses_dir)
     
     print(f"\n{'='*60}")
@@ -440,13 +429,13 @@ def main():
             status = "OK" if success else "FAILED"
             print(f"  {model}: {status}")
         
-        # Generate Markdown report
+       
         report_file = generate_markdown_report(results, args.responses_dir, args.report_file)
         print(f"\n📊 Полный отчет доступен в файле: {report_file}")
         print(f"💾 JSON ответы сохранены в: {args.responses_dir}/")
         return
     
-    # Test single model
+
     success, error_msg, json_file = test_responses_api_cache(
         args.api_key, args.model, args.base_url, args.responses_dir
     )
